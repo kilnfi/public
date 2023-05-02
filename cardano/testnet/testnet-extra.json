@@ -1,0 +1,42 @@
+{
+  "info": {
+        "url_png_icon_64x64": "https://kilnfi.keybase.pub/icon.png",
+        "url_png_logo": "https://kilnfi.keybase.pub/logo.png",
+        "location": "France, Europe",
+        "social": {
+            "twitter_handle": "Kiln_finance",
+            "telegram_handle": "",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "kilnfi"
+        },
+        "company": {
+            "name": "Kiln",
+            "addr": "14 Avenue Trudaine",
+            "city": "Paris",
+            "country": "France",
+            "company_id": "",
+            "vat_id": "FR00839230125"
+        },
+        "about": {
+            "me": "Kiln",
+            "server": "Kiln",
+            "company": "Kiln"
+        },
+        "rss": "http(s) url to valid RSS feed"
+    },
+
+  "telegram-admin-handle": [
+        "ArchiFleKs"
+    ],
+
+  "my-pool-ids": [
+        "3496527c1e1b20d56cc9d4e5615c76ba2421ad3f13e2561a1ad4d6c6"
+    ],
+  "when-satured-then-recommend": [
+        "3496527c1e1b20d56cc9d4e5615c76ba2421ad3f13e2561a1ad4d6c6"
+    ]
+}
+
