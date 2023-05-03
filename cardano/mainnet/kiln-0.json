@@ -3,5 +3,5 @@
   "description": "Enterprise-grade staking made easy",
   "ticker": "KILN0",
   "homepage": "https://kiln.fi",
-  "extended": "https://kilnfi.keybase.pub/cardano/kiln-0-extra.json"
+  "extended": "https://github.com/kilnfi/public/raw/main/cardano/mainnet/kiln-0-extra.json"
 }
