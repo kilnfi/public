@@ -1,7 +1,7 @@
 {
   "name": "Kiln",
   "website": "https://kiln.fi",
-  "description": "Kiln is the leading staking platform with over $7B stake under management. We run over 4% of the Ethereum network on a multi-client, multi-cloud infrastructure. We are planning to run all major EigenLayer AVSs and share any airdrops with delegators.",
+  "description": "Kiln is the leading staking platform with over $7B stake under management. We run over 4% of the Ethereum network on a multi-client, multi-cloud infrastructure.",
   "logo": "https://raw.githubusercontent.com/kilnfi/public/main/icon.png",
   "twitter": "https://twitter.com/Kiln_finance"
 }
