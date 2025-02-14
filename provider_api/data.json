@@ -1,0 +1,1837 @@
+{
+    "name": "Kiln",
+    "users": 109874,
+    "balanceUsd": 9693893105.189234,
+    "supportedAssets": [
+        {
+            "name": "ADA",
+            "slug": "cardano",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "pool1fcp4d2pxh0e7q5ju63sjqcdpxpr3pvxg6ykl23t6c97d7dnvjvw",
+                    "fee": 3,
+                    "users": 50,
+                    "balanceUsd": 57537353.65969114,
+                    "balanceToken": 71011322.580574
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool19kfm6lz5uw7nylq27swr367mqdycmug7tve94l6h3xsz64seqtc",
+                    "fee": 3,
+                    "users": 10,
+                    "balanceUsd": 15728.42331503915,
+                    "balanceToken": 19411.670344
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool1gaztx97t53k47fr7282d70tje8323vvzx8pshgts30t9krw62tm",
+                    "fee": 10,
+                    "users": 100,
+                    "balanceUsd": 43767021.82455173,
+                    "balanceToken": 54016285.204156
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool1mtxmk0skqkr5y0wxnxps4n35j6wn9q8dfr82y423vvlp53vccux",
+                    "fee": 3,
+                    "users": 22,
+                    "balanceUsd": 57686421.651393734,
+                    "balanceToken": 71195298.981502
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool10rdglgh4pzvkf936p2m669qzarr9dusrhmmz9nultm3uvq4eh5k",
+                    "fee": 5,
+                    "users": 66,
+                    "balanceUsd": 53502636.38409549,
+                    "balanceToken": 66031764.228389
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool1aqg8vxzv75zhjzjjd9s20fu6r0xz70yl8lk3teacwy7qyc2p2j7",
+                    "fee": 3,
+                    "users": 20,
+                    "balanceUsd": 52551604.718883105,
+                    "balanceToken": 64858022.092764
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool1mtuhuh8hkf8am0qzx45y58kll8q83sjh6pwljrflcmw970d82f3",
+                    "fee": 3,
+                    "users": 12,
+                    "balanceUsd": 55310891.841968015,
+                    "balanceToken": 68263472.909093
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool10d6mmw3mn9ku3r7uqqye672dz3sv76lh5kvh5rdpr9l5ug5yknr",
+                    "fee": 5,
+                    "users": 30,
+                    "balanceUsd": 47426878.657138206,
+                    "balanceToken": 58533199.132361
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "pool1v62c7d92xv6gyh4x9rhfpkwzlpw2ypxk92xvzavakg3xypatklv",
+                    "fee": 3,
+                    "users": 33,
+                    "balanceUsd": 57359525.350607045,
+                    "balanceToken": 70791850.835401
+                }
+            ]
+        },
+        {
+            "name": "ALGO",
+            "slug": "algorand",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "kiln.algo",
+                    "fee": 10,
+                    "users": 71,
+                    "balanceUsd": 36557243.213599406,
+                    "balanceToken": 120564390.915314
+                }
+            ]
+        },
+        {
+            "name": "ALT",
+            "slug": "altlayer",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 359.53391804156536,
+                    "balanceToken": 7149.0
+                }
+            ]
+        },
+        {
+            "name": "ANKRETH",
+            "slug": "ankreth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 10236.06176139299,
+                    "balanceToken": 3.2556765475586773
+                }
+            ]
+        },
+        {
+            "name": "APT",
+            "slug": "aptos",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x63b0a7343c481fe176603e4e30cc5acc521c75d4310ce1b7b657c8168df66c66",
+                    "fee": 10,
+                    "users": 120,
+                    "balanceUsd": 10643237.943714743,
+                    "balanceToken": 1728433.4983195795
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "0x9a41af5c002f91dc29cb2843ab823e3d6cdaa6cc86e6331646a4f1328609a744",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 43993147.79302378,
+                    "balanceToken": 7144370.04453993
+                }
+            ]
+        },
+        {
+            "name": "ATOM",
+            "slug": "cosmos",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "cosmosvaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjqvwdul2",
+                    "fee": 8,
+                    "users": 1596,
+                    "balanceUsd": 23015922.99278476,
+                    "balanceToken": 4610912.242372
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "cosmosvaloper1k6e7l0lz497l8njqjxpd3g4wlkdfwe93uqf03k",
+                    "fee": 10,
+                    "users": 14167,
+                    "balanceUsd": 9648738.496402584,
+                    "balanceToken": 1932987.283215
+                }
+            ]
+        },
+        {
+            "name": "AVAX",
+            "slug": "avalanche-2",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "NodeID-L6nb7jWTw3jK29dqUhB8jPX3g6F5gC6Lk",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 922853.3994862284,
+                    "balanceToken": 34828.1807555
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "NodeID-4ETxBbffoA8cU54eMDVwQM5Ue6FEYu4s5",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 3631099.7158780247,
+                    "balanceToken": 137036.497147055
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "NodeID-A8X5CqiZhsqSEGNUNqZifHqskMvSUJBG",
+                    "fee": 5,
+                    "users": 1,
+                    "balanceUsd": 15060128.696300227,
+                    "balanceToken": 568364.254526067
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "NodeID-5EN7mGpu9Y7SXZDMB9J6RLbpntNUSGhQs",
+                    "fee": 5,
+                    "users": 1,
+                    "balanceUsd": 5431950.299752625,
+                    "balanceToken": 205000.0
+                }
+            ]
+        },
+        {
+            "name": "BTC",
+            "slug": "bitcoin",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "053107172a3d5a2715754cd5793efdcf5e54364b855ed2305819e372aa685d76",
+                    "fee": 5,
+                    "users": 30,
+                    "balanceUsd": 10330231.500506908,
+                    "balanceToken": 105.587019
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "0x1c151923Cf6C381C4aF6C3071a2773B3cDBBf704",
+                    "fee": 5,
+                    "users": 686,
+                    "balanceUsd": 27445248.17482925,
+                    "balanceToken": 280.5224588
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "0xc24fe962e6230841c5019e531e3c713ed30161b4",
+                    "fee": 6,
+                    "users": 1375,
+                    "balanceUsd": 27126123.128586844,
+                    "balanceToken": 277.26062848
+                }
+            ]
+        },
+        {
+            "name": "CBETH",
+            "slug": "coinbase-wrapped-staked-eth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 21266.05605196422,
+                    "balanceToken": 7.290501405243464
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 183354.39400680724,
+                    "balanceToken": 62.85817473149774
+                }
+            ]
+        },
+        {
+            "name": "CORE",
+            "slug": "coredaoorg",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x1c151923Cf6C381C4aF6C3071a2773B3cDBBf704",
+                    "fee": 5,
+                    "users": 686,
+                    "balanceUsd": 4963374.788668821,
+                    "balanceToken": 8981155.37802437
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "0xc24fe962e6230841c5019e531e3c713ed30161b4",
+                    "fee": 6,
+                    "users": 1375,
+                    "balanceUsd": 2042079.24521865,
+                    "balanceToken": 3695113.0584410857
+                }
+            ]
+        },
+        {
+            "name": "CRO",
+            "slug": "crypto-com-chain",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "crocncl1lqm9hhzuqgutgswlff5yf9kmn7vx6pmksk4kvs",
+                    "fee": 5,
+                    "users": 122,
+                    "balanceUsd": 19692401.61602904,
+                    "balanceToken": 216493068.04297
+                }
+            ]
+        },
+        {
+            "name": "DOT",
+            "slug": "polkadot",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "14v1KAyrm7LQJJvRpRP44qpf36uQWkRT1mzqUQzDY92r7BDa",
+                    "fee": 100,
+                    "users": 3,
+                    "balanceUsd": 8030370.909204363,
+                    "balanceToken": 1565618.0765979984
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "1497QNdycmxqMi3VJDxZDhaJh4s9tytr5RFWyrLcNse2xqPD",
+                    "fee": 100,
+                    "users": 15,
+                    "balanceUsd": 8027798.908003439,
+                    "balanceToken": 1565116.6338105197
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "13REihPMQRbujGMrSUyCvWhg1Rrzuy2BAyXaRv4KXFyCsrMq",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 8030335.266214625,
+                    "balanceToken": 1565611.1275654233
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "15drCUvFMiWvy1YfkU6xgENxRzmFXDaqQFpjUwR5nu11DHu3",
+                    "fee": 100,
+                    "users": 6,
+                    "balanceUsd": 5375738.753715457,
+                    "balanceToken": 1048065.3836597437
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "14e6xD5f8MuyWqLNanZDqSGe9TEzNMn29namWpKBJBa5ukwJ",
+                    "fee": 100,
+                    "users": 2,
+                    "balanceUsd": 2611.8107769124153,
+                    "balanceToken": 509.2041465109214
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "118",
+                    "fee": 100,
+                    "users": 72,
+                    "balanceUsd": 10682894.956148807,
+                    "balanceToken": 2082759.7682410504
+                }
+            ]
+        },
+        {
+            "name": "DYDX",
+            "slug": "dydx",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "dydxvaloper1u9xeaqdjz3kky2ymdhdsn0ra5uy9tc3elj2jte",
+                    "fee": 5,
+                    "users": 312,
+                    "balanceUsd": 8424710.000190198,
+                    "balanceToken": 10797236.428232
+                }
+            ]
+        },
+        {
+            "name": "DYM",
+            "slug": "dymension",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "dymvaloper1u9xeaqdjz3kky2ymdhdsn0ra5uy9tc3ezrzymt",
+                    "fee": 5,
+                    "users": 109,
+                    "balanceUsd": 116311.1820669074,
+                    "balanceToken": 209849.0
+                }
+            ]
+        },
+        {
+            "name": "EGLD",
+            "slug": "elrond-erd-2",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqpxhllllsda7ph5",
+                    "fee": 10,
+                    "users": 180,
+                    "balanceUsd": 185512.4955093697,
+                    "balanceToken": 8303.71
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqpy8lllls84ykc7",
+                    "fee": 10,
+                    "users": 118,
+                    "balanceUsd": 1605498.7195226164,
+                    "balanceToken": 71863.6
+                }
+            ]
+        },
+        {
+            "name": "EIGEN",
+            "slug": "eigenlayer",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 33262.72303654244,
+                    "balanceToken": 19412.029535121535
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 32886622.088410985,
+                    "balanceToken": 19192538.10306727
+                }
+            ]
+        },
+        {
+            "name": "ETH",
+            "slug": "ethereum",
+            "nodes": [
+                {
+                    "nodeType": "hostingNode",
+                    "address": "Operator for Kiln On-Chain",
+                    "fee": 100,
+                    "users": 5275,
+                    "balanceUsd": 439392321.7913266,
+                    "balanceToken": 168800.11101212082
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "Operator for Safe Wallet",
+                    "fee": 0,
+                    "users": 1269,
+                    "balanceUsd": 108655191.1005784,
+                    "balanceToken": 40608.0
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "Operator for Enzyme",
+                    "fee": 0,
+                    "users": 217,
+                    "balanceUsd": 18580123.30088693,
+                    "balanceToken": 6944.0
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 209834076.00952333,
+                    "balanceToken": 78421.859759164
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "Operator for Coinbase",
+                    "fee": 100,
+                    "users": 1228,
+                    "balanceUsd": 102325452.7024262,
+                    "balanceToken": 39310.08103445656
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "VaaS",
+                    "fee": 0,
+                    "users": 25894,
+                    "balanceUsd": 2217113883.6551433,
+                    "balanceToken": 828608.0
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "Operator for Ledger Live",
+                    "fee": 0,
+                    "users": 13178,
+                    "balanceUsd": 1128335782.760774,
+                    "balanceToken": 421696.0
+                },
+                {
+                    "nodeType": "operatorNode",
+                    "address": "Operator for Lido Finance",
+                    "fee": 100,
+                    "users": 7904,
+                    "balanceUsd": 676761726.1300013,
+                    "balanceToken": 252928.0,
+                    "liquidStakingProvider": "lido-finance"
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 73215392.82497628,
+                    "balanceToken": 27362.987830784
+                },
+                {
+                    "nodeType": "operatorNode",
+                    "address": "Operator for Swell Network",
+                    "fee": 100,
+                    "users": 209,
+                    "balanceUsd": 17895141.796706766,
+                    "balanceToken": 6688.0,
+                    "liquidStakingProvider": "swell-network"
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "Operator for Fireblocks",
+                    "fee": 0,
+                    "users": 1030,
+                    "balanceUsd": 88191368.66319603,
+                    "balanceToken": 32960.0
+                }
+            ]
+        },
+        {
+            "name": "ETHX",
+            "slug": "stader-ethx",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 323854.43612924777,
+                    "balanceToken": 115.03238825361287
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 648551.5163451936,
+                    "balanceToken": 230.36408184606623
+                }
+            ]
+        },
+        {
+            "name": "FET",
+            "slug": "fetch-ai",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "fetchvaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7ryjvncp",
+                    "fee": 10,
+                    "users": 383,
+                    "balanceUsd": 91998010.11667493,
+                    "balanceToken": 118361414.37493
+                }
+            ]
+        },
+        {
+            "name": "FLR",
+            "slug": "flare-networks",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x6df84895f1f1f6f6767c59324f94089d4097051a",
+                    "fee": 20,
+                    "users": -1,
+                    "balanceUsd": 314387.5780478979,
+                    "balanceToken": 21083898.0
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "NodeID-FHPDnySFVqde5bGvEXsFnvZGhXwcyRfNY",
+                    "fee": 10,
+                    "users": 6,
+                    "balanceUsd": 316579.85132900346,
+                    "balanceToken": 16386298.992
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "NodeID-KB4zWTTeK5gHYKYmjftGGQ8nHy9NQbGax",
+                    "fee": 15,
+                    "users": 89,
+                    "balanceUsd": 1564617.1675353325,
+                    "balanceToken": 80985206.75785428
+                }
+            ]
+        },
+        {
+            "name": "INJ",
+            "slug": "injective-protocol",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "injvaloper1dyntafvjynns5zyltwgyktej0y5zt84y3npkt4",
+                    "fee": 10,
+                    "users": 2526,
+                    "balanceUsd": 5224980.384654874,
+                    "balanceToken": 346080.010559
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "injvaloper1u8npsgrcyk4csp0cpzecwkvcqw4e6thqzcrvp7",
+                    "fee": 7,
+                    "users": 119,
+                    "balanceUsd": 30768200.971322782,
+                    "balanceToken": 2037952.01764
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "injvaloper1rf0fczrw2gnhuju86kmjtku4dvf9dcc2mpe7pe",
+                    "fee": 10,
+                    "users": 486,
+                    "balanceUsd": 43622854.93518606,
+                    "balanceToken": 2889388.473289
+                }
+            ]
+        },
+        {
+            "name": "KAVA",
+            "slug": "kava",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "kavavaloper1t787gjxtyswnncltluwaefg0dfgvwrm87d3g9d",
+                    "fee": 10,
+                    "users": 4504,
+                    "balanceUsd": 890085.0160887935,
+                    "balanceToken": 1862314.636903
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "kavavaloper1djqecw6nn5tydxq0shan7srv8j65clsf79myt8",
+                    "fee": 8,
+                    "users": 30,
+                    "balanceUsd": 570094.4141223927,
+                    "balanceToken": 1192801.982559
+                }
+            ]
+        },
+        {
+            "name": "KSM",
+            "slug": "kusama",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "GqGK34UgzzxnHsjgbHYmtX1uy3XdqfZGU7qK7b4bS93qbPS",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132167.85787415362,
+                    "balanceToken": 6933.409
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Gr5B3tJYQekuMWuUYy8Xe4agxnFfzN5fDLBwPo5kboZezS2",
+                    "fee": 15,
+                    "users": 24,
+                    "balanceUsd": 142019.62508812165,
+                    "balanceToken": 7450.224
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DrzrPbzH7TTKvFMx8wMwx9dFxHSiU482yPMzQKhKc6Wrn6J",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "GVUWGSMtHBK7n1jHAej7HFA7hoYcraTV9QU5nYxv8sxXMBK",
+                    "fee": 15,
+                    "users": 9,
+                    "balanceUsd": 141176.6448152269,
+                    "balanceToken": 7406.002
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "G5YidYQ3xTpVtYqqFCfWXjhnHnsTxA6B1poRNQeaj3AP3Dh",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "CdEZPaAs15eL7Rz29XFTs2rUqdfPjNzD27GHqpUPjZFDFpZ",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132167.85787415362,
+                    "balanceToken": 6933.409
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FWKNbyisEXuDrDdtvYDdi8FSJt3oFMYRzphGbujZZeyZDrL",
+                    "fee": 100,
+                    "users": 2,
+                    "balanceUsd": 132171.36536748754,
+                    "balanceToken": 6933.593
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FTacV62RTSkTgw82NU7GvES1bwKSL89n4qGBFsiySRvUHxR",
+                    "fee": 15,
+                    "users": 19,
+                    "balanceUsd": 142017.08978044006,
+                    "balanceToken": 7450.091
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "JL8TF9EXAruw1C9BLafRw1143R2P7orG6xYMeeumF6q3cWL",
+                    "fee": 15,
+                    "users": 19,
+                    "balanceUsd": 141984.836091739,
+                    "balanceToken": 7448.399
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "JC8B2s732heisDkwdgUs1QakHpCzWYVvWcjc1TotN18i5zf",
+                    "fee": 15,
+                    "users": 22,
+                    "balanceUsd": 141211.62443624725,
+                    "balanceToken": 7407.837
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "GPmUcDevE3jkdzhRxDSmZETnwNxH8BMpw3sEEkZsdf3r22V",
+                    "fee": 100,
+                    "users": 3,
+                    "balanceUsd": 121018.92812547574,
+                    "balanceToken": 6348.546
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "F2MZ4MxTePD7MnX2dWs6zSYcKUeUWUVoAeYf9QptjFcA8F8",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Gns7TFE3UfUjG79uiGRxBXYLhi9oUpBfwyuLKuCFU5JzXch",
+                    "fee": 15,
+                    "users": 40,
+                    "balanceUsd": 142000.37199971263,
+                    "balanceToken": 7449.214
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DX7yQzCk4jXU2hjojB2nDzAKjvMmjJ3NhVn3eKm3XDtRLg8",
+                    "fee": 15,
+                    "users": 34,
+                    "balanceUsd": 19.043401307535657,
+                    "balanceToken": 0.999
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "JLVXksuJ9nY3jXJqxjv5VMD4SXwA9rZ4kRwigJJohLKiB1w",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "HCMK1Zq6o5UxCroyHXnXkynyHiJVqQxAUoAqPNVvWFHFar7",
+                    "fee": 15,
+                    "users": 2,
+                    "balanceUsd": 165117.93650169842,
+                    "balanceToken": 8661.941
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "CyjR5Veu6smCYe5V8RQkJaFoeq84vgAbSEvdLR4PLyYZq8G",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "GPZSN4gPpDCYNZGaqPsAE3FkUwBgBLLBNJMMc3wzzrKhU7H",
+                    "fee": 15,
+                    "users": 22,
+                    "balanceUsd": 142015.7363455123,
+                    "balanceToken": 7450.02
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "J3yg3jGFexzZPaZbbDvP48XLDbMLBFnvMQw3eRVvUDmPLbq",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FaQeh5SM5AoUuHfieuJxGLBrxHVgJfbndgxrQjR62i9JYTx",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 140874.2378899589,
+                    "balanceToken": 7390.138
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FAr1jmqaGhbbL2q61nZsAqy7oN3UeKiWuNaFcEUCeRKucEE",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 140874.2378899589,
+                    "balanceToken": 7390.138
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FEjbWr2S3ihzzywi4w77JYsRwEUvhfjjCwrjzsXF5GyQWQK",
+                    "fee": 15,
+                    "users": 21,
+                    "balanceUsd": 141985.9035897102,
+                    "balanceToken": 7448.455
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Dd416Wf1jdEpN9YeMpSHTdZvNUjeVeF5udMKXyQZUV9v8uE",
+                    "fee": 100,
+                    "users": 6,
+                    "balanceUsd": 121020.18624808463,
+                    "balanceToken": 6348.612
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EkGGh6jahDR3CuTX97SMsf79DmEhthxjFvcjSc97RVc4Jup",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "GQu1iE5xsaZBo4GYwooWnuU23ARbwXTGb7Vm96PkSB1ACZY",
+                    "fee": 15,
+                    "users": 24,
+                    "balanceUsd": 142011.52354101883,
+                    "balanceToken": 7449.799
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FgbvUVrNyGSGquN45bTrysHmEtu6cWApCjJTdZQVSfLmZtG",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "HA8YhzgBhLxxTzNCybAaNWFFjPue2H6JnyumBerS1tVffBZ",
+                    "fee": 100,
+                    "users": 5,
+                    "balanceUsd": 121016.41188025792,
+                    "balanceToken": 6348.414
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "ELu2FSqBsVJ15Y4o6fvkqkyQVxNCFikGq9uJnE8Rvg28bWD",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 19.043401307535657,
+                    "balanceToken": 0.999
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EJKbMXUPkoBWoP5ZvSLMPwKtN323vLP9bfDYUfnXguJQUA9",
+                    "fee": 15,
+                    "users": 5,
+                    "balanceUsd": 140868.9194625667,
+                    "balanceToken": 7389.859
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DdP4DrVu6t1nSyArSu8YvKA7kvrBaeGGMrvH5mo91Uno41N",
+                    "fee": 15,
+                    "users": 2,
+                    "balanceUsd": 165117.47900256788,
+                    "balanceToken": 8661.917
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FV3za2fceAXtw4KwVnPJK4c4Y2ph8VNMEA26MkgjTaEA76u",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 19.062463771306962,
+                    "balanceToken": 1.0
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EMna7WSFZ7oqhFCsHhwLLQ7hwNDkXnN7DrY8mpsxD6pTJ2U",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 165117.47900256788,
+                    "balanceToken": 8661.917
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DtiPYpVb7sPrmih6HUTCYfqyRGNpnHkJDtb7kPK3ebBNWmJ",
+                    "fee": 15,
+                    "users": 20,
+                    "balanceUsd": 141113.5480601439,
+                    "balanceToken": 7402.692
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EUnyaJX1VkQs4BobTWqTerb3V6tS9V5kL9hAcg1RhcSshCF",
+                    "fee": 15,
+                    "users": 15,
+                    "balanceUsd": 140893.8341027158,
+                    "balanceToken": 7391.166
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DL8PnCit43o9oFWKqnDv8gFGkYytkc6C4XvvpdrPt4Z5uc2",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132167.85787415362,
+                    "balanceToken": 6933.409
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "HRmuduqFKGCfNYwxoWMqcEm2uU2Vecw8HkSb18Z8A4AAyA4",
+                    "fee": 100,
+                    "users": 2,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EXQw8nq6xgzp14FAY6K8f4T2chz3jC5VSjFALuirM7PiEqC",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EWuXJvTfG91Y88pwcV9W5bHpQLTsq9YjdTN9GQfSVdpZqPK",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EHnXXHNYJXWMrg2N5DCC1jBoJrbperheC4ggGfviZEqirj8",
+                    "fee": 100,
+                    "users": 2,
+                    "balanceUsd": 121016.86937938843,
+                    "balanceToken": 6348.438
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "HDFAdFewWWcTMJ1HCZjYebG3e3GKBQdL34SnoThJd7KmDoo",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EkBirBWoDGDPGiVcLp5AmGBJ26wj7bywxotbu2X8jJxWjyX",
+                    "fee": 100,
+                    "users": 7,
+                    "balanceUsd": 121020.37687272235,
+                    "balanceToken": 6348.622
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "H54j1dsrE9YsYFszyYzEpqtuDXjb64jd6DkwTWJX69af9iH",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "HeYp7LPVwJBiKzsdgKUnKfrdXdMrhFWyF54kvexxbbxs4e1",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132207.58404865305,
+                    "balanceToken": 6935.493
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EFH7rXybenE9W59z4T8AYAknX5CfypZkaecwAHQ4yKJCfhT",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "D5bGNBXYZwLmgpoBp4e9ojsmJGfYJ4UVVhn7BKP1FHKZFne",
+                    "fee": 100,
+                    "users": 5,
+                    "balanceUsd": 121019.59531170773,
+                    "balanceToken": 6348.581
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EqYrURd7LWw6B2Z1YvPWbrZAMGWvPaUcQNSYEJA8JnLRJSS",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 140874.2378899589,
+                    "balanceToken": 7390.138
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FTrDW5VJTLKP8mrrrVvps6mKq5RaoMhUeQj56GcFFXwnqV2",
+                    "fee": 100,
+                    "users": 2,
+                    "balanceUsd": 132163.7594444428,
+                    "balanceToken": 6933.194
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "GAUrq7JJo6tLTXpd8XE3DtLbsZxpWcSqP2dXGFS8ATUXG8u",
+                    "fee": 100,
+                    "users": 4,
+                    "balanceUsd": 121018.81375069311,
+                    "balanceToken": 6348.54
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DJFFxW7CAMDe9ovU6yPhLAMMNRpeiCXFxeZqVtzLyujL8dQ",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EYMFYTakhnBxjMocHnCGrNnmu5dF8MwZLr9k1rybL1XtzRs",
+                    "fee": 15,
+                    "users": 2,
+                    "balanceUsd": 141996.44513217572,
+                    "balanceToken": 7449.008
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Hf6btzVbZC9A7KbRVaDDjD68VRx1w8sCHn4zeDimQbjEyee",
+                    "fee": 15,
+                    "users": 2,
+                    "balanceUsd": 140863.50572285565,
+                    "balanceToken": 7389.575
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Cw1bjJ8gN7xvGtau1zNSwn4hwJLH5SF1uKbKNPta34Fp57A",
+                    "fee": 100,
+                    "users": 35,
+                    "balanceUsd": 121022.58811851982,
+                    "balanceToken": 6348.738
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "H2Q7YEgq8A14x9X43zM38SoMAZzCiiGy2FzNXb5WGPNgvwi",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132167.85787415362,
+                    "balanceToken": 6933.409
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "G77tbQfWZvKeH4fcGdwinnBKUrt1MaJZPo3UXHJFp6BZvre",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132167.85787415362,
+                    "balanceToken": 6933.409
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EfVWDBaK3JxRPY3DP2HaSr3VWzvdQZ31m45fkkKsG4y55S9",
+                    "fee": 100,
+                    "users": 68,
+                    "balanceUsd": 1.9062463771306963,
+                    "balanceToken": 0.1
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DtVTxyCyFgYjt7ZwSL1fwfoiAevBjb8dYZK6cLSM9mGmdZd",
+                    "fee": 100,
+                    "users": 3,
+                    "balanceUsd": 121018.87093808441,
+                    "balanceToken": 6348.543
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "GrnATgqASptiY6iHHAFuCN2ptdCXirtwgAbNyHBGyo8mcsg",
+                    "fee": 100,
+                    "users": 7,
+                    "balanceUsd": 121028.95498141945,
+                    "balanceToken": 6349.072
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EhBtcgq1f2dfEtrwX5aiQC8bMPz2EkLuDjKV5iNAGwx8nbf",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 132170.03099502355,
+                    "balanceToken": 6933.523
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Gki3STHsjnigHosVtDgwYgrLjAQKh7Gye2wv3twsiZPzNUf",
+                    "fee": 15,
+                    "users": 1,
+                    "balanceUsd": 165134.38740793304,
+                    "balanceToken": 8662.804
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "F33g5JiJwo4XLN7L5k22851jaKFqnbYur7Qwng7MvUNnmU6",
+                    "fee": 15,
+                    "users": 14,
+                    "balanceUsd": 140895.34003735372,
+                    "balanceToken": 7391.245
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DtmGbuQ3J9GqtH6CZpJMBV7uKan7Su8LpJtvuuqGTgzDgx2",
+                    "fee": 15,
+                    "users": 21,
+                    "balanceUsd": 140889.88817271515,
+                    "balanceToken": 7390.959
+                }
+            ]
+        },
+        {
+            "name": "LBTC",
+            "slug": "lombard-staked-btc",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 1.5462552141779565e-08,
+                    "balanceToken": 1.60071e-13
+                }
+            ]
+        },
+        {
+            "name": "LSETH",
+            "slug": "liquid-staked-ethereum",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 44254.29320320496,
+                    "balanceToken": 15.32448953839233
+                }
+            ]
+        },
+        {
+            "name": "METH",
+            "slug": "mantle-staked-ether",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 3460.2623981533343,
+                    "balanceToken": 1.2237175568273584
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 443044.9088815077,
+                    "balanceToken": 156.68228910923577
+                }
+            ]
+        },
+        {
+            "name": "NEAR",
+            "slug": "near",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "cosmose.poolv1.near",
+                    "fee": 100,
+                    "users": 135,
+                    "balanceUsd": 27506843.88374632,
+                    "balanceToken": 8158437.676698228
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "kiln-1.poolv1.near",
+                    "fee": 5,
+                    "users": 261,
+                    "balanceUsd": 43696331.83814561,
+                    "balanceToken": 12960185.527227508
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "kiln.poolv1.near",
+                    "fee": 100,
+                    "users": 113,
+                    "balanceUsd": 10688239.711444478,
+                    "balanceToken": 3170096.065108966
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "trust-nodes.poolv1.near",
+                    "fee": 10,
+                    "users": 11384,
+                    "balanceUsd": 4724410.534909474,
+                    "balanceToken": 1401244.325633842
+                }
+            ]
+        },
+        {
+            "name": "OETH",
+            "slug": "origin-ether",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 2027.304125855891,
+                    "balanceToken": 0.7575035648822377
+                }
+            ]
+        },
+        {
+            "name": "OM",
+            "slug": "mantra-dao",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "mantravaloper13cyn4zgugjz7pta8s7wkrxqp4cdrp7ygeem3fq",
+                    "fee": 10,
+                    "users": 50,
+                    "balanceUsd": 22820954.67226199,
+                    "balanceToken": 4000747.667042
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "mantravaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7ram37xw",
+                    "fee": 10,
+                    "users": 56,
+                    "balanceUsd": 38989845.415059984,
+                    "balanceToken": 6835320.22752
+                }
+            ]
+        },
+        {
+            "name": "ONE",
+            "slug": "harmony",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "one149j0j8jx4mrjzzlnh299hmrd3rzr8ptyhksht9",
+                    "fee": 10,
+                    "users": 29,
+                    "balanceUsd": 2167782.3863237253,
+                    "balanceToken": 148534076.0
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "one1gghrrqjs0jgurfmye4rl67w2hth5xs08zn05nm",
+                    "fee": 10,
+                    "users": 11,
+                    "balanceUsd": 2700740.930390205,
+                    "balanceToken": 185051812.0
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "one1qnerp6dwvtvdgucq5rmmmlng8puj82kdpxh8jz",
+                    "fee": 10,
+                    "users": 3,
+                    "balanceUsd": 1167721.5167255464,
+                    "balanceToken": 80011000.0
+                }
+            ]
+        },
+        {
+            "name": "OSETH",
+            "slug": "stakewise-v3-oseth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 63405.96376547022,
+                    "balanceToken": 22.812575051902943
+                }
+            ]
+        },
+        {
+            "name": "OSMO",
+            "slug": "osmosis",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "osmovaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7rq8p8gy",
+                    "fee": 8,
+                    "users": 766,
+                    "balanceUsd": 450072.93698966963,
+                    "balanceToken": 1442820.434627
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "osmovaloper1f7jtv9sd3g9jay64zrydfqh7l3eqdzgs289m8u",
+                    "fee": 10,
+                    "users": 1604,
+                    "balanceUsd": 233356.0007618503,
+                    "balanceToken": 748080.541554
+                }
+            ]
+        },
+        {
+            "name": "PEAQ",
+            "slug": "peaq-2",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "5Eeu6h74w2XR2Z6LMrQhRc1UKzdnsXQstMiaFic7uVScPoSN",
+                    "fee": 0,
+                    "users": 20,
+                    "balanceUsd": 18873306.985460244,
+                    "balanceToken": 87101742.81
+                }
+            ]
+        },
+        {
+            "name": "POL",
+            "slug": "polygon-ecosystem-token",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "47",
+                    "fee": 5,
+                    "users": 333,
+                    "balanceUsd": 36577230.42643195,
+                    "balanceToken": 115412350.57206018
+                }
+            ]
+        },
+        {
+            "name": "QCK",
+            "slug": "quicksilver",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "quickvaloper1wr38atcruxqh4u49q998n065g2mhsrskl4et7n",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 5448.790484913885,
+                    "balanceToken": 1322231.0
+                }
+            ]
+        },
+        {
+            "name": "REALT",
+            "slug": "NONE",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 0.0,
+                    "balanceToken": 42259.693123317185
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 0.0,
+                    "balanceToken": 6692.437000000001
+                }
+            ]
+        },
+        {
+            "name": "RETH",
+            "slug": "rocket-pool-eth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 150.18020291388171,
+                    "balanceToken": 0.050005601
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 1586588.9315018088,
+                    "balanceToken": 528.2875606792927
+                }
+            ]
+        },
+        {
+            "name": "REZ",
+            "slug": "renzo",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 49.30975199749089,
+                    "balanceToken": 2973.75
+                }
+            ]
+        },
+        {
+            "name": "ROSE",
+            "slug": "oasis-network",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "oasis1qqtmpsavs44vz8868p008uwjulfq03pcjswslutz",
+                    "fee": 8,
+                    "users": 100,
+                    "balanceUsd": 7341802.737758317,
+                    "balanceToken": 159118142.57563135
+                }
+            ]
+        },
+        {
+            "name": "RSS3",
+            "slug": "rss3",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x127286d5419bb0c7f055834fb5c1ef26a3280a2a",
+                    "fee": 5,
+                    "users": 10,
+                    "balanceUsd": 377536.91883823293,
+                    "balanceToken": 5276938.942281337
+                }
+            ]
+        },
+        {
+            "name": "SFRAX",
+            "slug": "staked-frax",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 732.8565784638117,
+                    "balanceToken": 660.5729267785063
+                }
+            ]
+        },
+        {
+            "name": "SFRXETH",
+            "slug": "staked-frax-ether",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 1920933.0082977298,
+                    "balanceToken": 645.3168424612323
+                }
+            ]
+        },
+        {
+            "name": "SOL",
+            "slug": "solana",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin",
+                    "fee": 7,
+                    "users": 2220,
+                    "balanceUsd": 43368684.86583709,
+                    "balanceToken": 223247.076753684
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+                    "fee": 5,
+                    "users": 2837,
+                    "balanceUsd": 1231252618.5890887,
+                    "balanceToken": 6338065.096870379
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "XzMLju7T6BSSngmsPogeuryd6uswiimkPU87gB2chho",
+                    "fee": 8,
+                    "users": 191,
+                    "balanceUsd": 905738448.0842924,
+                    "balanceToken": 4662430.079762895
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "9RXDftY5xyhtYyzk4z7U9ddvBF2Z8DMfXmV6P6du9dxS",
+                    "fee": 0,
+                    "users": 406,
+                    "balanceUsd": 26358518.575223405,
+                    "balanceToken": 135684.589875855
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "7Wjam1EkzxGns1ujrghSANGiBff1eQq8YppLAX7TNvND",
+                    "fee": 5,
+                    "users": 0,
+                    "balanceUsd": 217.91516709637423,
+                    "balanceToken": 1.121752347
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "FiijvR2ibXEHaFqB127CxrL3vSj19K2Kx1jf2RbK4BWS",
+                    "fee": 10,
+                    "users": -1,
+                    "balanceUsd": 63294941.314943716,
+                    "balanceToken": 325820.593028592
+                }
+            ]
+        },
+        {
+            "name": "STETH",
+            "slug": "staked-ether",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 523794245.40114576,
+                    "balanceToken": 195796.4444268838
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 21149413.416237876,
+                    "balanceToken": 7905.737768161727
+                }
+            ]
+        },
+        {
+            "name": "STRK",
+            "slug": "starknet",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x07650bb257877d0ce903593a5df07974e15adc1c7a16385d2ebef8eb073ccd73",
+                    "fee": -1,
+                    "users": 84,
+                    "balanceUsd": 41665.37411787196,
+                    "balanceToken": 169660.199
+                }
+            ]
+        },
+        {
+            "name": "STX",
+            "slug": "blockstack",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "SP37NDP02F9Q8Q3RYKRNYN1QNP5N2RDQYM6R9Z4PK",
+                    "fee": 100,
+                    "users": 8,
+                    "balanceUsd": 21611010.207301814,
+                    "balanceToken": 22229680.367247
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-kiln-v1",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 5833015.09970695,
+                    "balanceToken": 6000000.0
+                }
+            ]
+        },
+        {
+            "name": "SUI",
+            "slug": "sui",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x92c7bf9914897e8878e559c19a6cffd22e6a569a6dd4d26f8e82e0f2ad1873d6",
+                    "fee": 10,
+                    "users": 763,
+                    "balanceUsd": 264177144.14873847,
+                    "balanceToken": 79602390.1510614
+                }
+            ]
+        },
+        {
+            "name": "SUSDE",
+            "slug": "ethena-staked-usde",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 1063.2624146565538,
+                    "balanceToken": 922.8498748041949
+                }
+            ]
+        },
+        {
+            "name": "SWELL",
+            "slug": "swell-network",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 52.259328634296565,
+                    "balanceToken": 3717.7010709000897
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 10.937519222872028,
+                    "balanceToken": 778.089347691617
+                }
+            ]
+        },
+        {
+            "name": "SWETH",
+            "slug": "sweth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 10359.800850543454,
+                    "balanceToken": 3.579437919267211
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 1253841.44093052,
+                    "balanceToken": 433.21755535290123
+                }
+            ]
+        },
+        {
+            "name": "TIA",
+            "slug": "celestia",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "celestiavaloper1djqecw6nn5tydxq0shan7srv8j65clsfmnxcfu",
+                    "fee": 8,
+                    "users": 744,
+                    "balanceUsd": 12633170.57056404,
+                    "balanceToken": 4142120.421223
+                }
+            ]
+        },
+        {
+            "name": "TON",
+            "slug": "the-open-network",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "EQCopper1USLs1671BTkydj2IfU7Z7VFUVYGRbjsJfh9OYIg",
+                    "fee": 15,
+                    "users": 13,
+                    "balanceUsd": 48192565.44531308,
+                    "balanceToken": 12974969.214177089
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "EQCopper2jDkUHp9SxMxb1JIS8U3dFxIHUejnKpIWQGL2wkn",
+                    "fee": 15,
+                    "users": 12,
+                    "balanceUsd": 51733681.53652995,
+                    "balanceToken": 13544597.293488754
+                },
+                {
+                    "nodeType": "hostingNode",
+                    "address": "single_nominator_pool_v1",
+                    "fee": 100,
+                    "users": 1,
+                    "balanceUsd": 181648654.8989551,
+                    "balanceToken": 48484731.25405317
+                }
+            ]
+        },
+        {
+            "name": "TRX",
+            "slug": "tron",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "TFqEaQBVpJmc6y6sbvXgzu9zsXL1pTKw47",
+                    "fee": 10,
+                    "users": -1,
+                    "balanceUsd": 32993615.45416078,
+                    "balanceToken": 141217869.0
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "TQzd66b9EFVHJfZK5AmiVhBjtJvXGeSPPZ",
+                    "fee": 10,
+                    "users": -1,
+                    "balanceUsd": 2358390.34360345,
+                    "balanceToken": 10094282.0
+                }
+            ]
+        },
+        {
+            "name": "USDA",
+            "slug": "usda-2",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "0x67c18866e6f6bee1e9b6d0bb9055a65dba8e9348",
+                    "fee": -1,
+                    "users": -1,
+                    "balanceUsd": 0.9974633192467577,
+                    "balanceToken": 1.000130636687404
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "0x75ee9f7aa08d20788898103f28f640fff0fb85fc",
+                    "fee": -1,
+                    "users": -1,
+                    "balanceUsd": 2.0945576803095456,
+                    "balanceToken": 2.1001587386375338
+                }
+            ]
+        },
+        {
+            "name": "WBETH",
+            "slug": "wrapped-beacon-eth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 138113.84619653772,
+                    "balanceToken": 48.5953074
+                }
+            ]
+        },
+        {
+            "name": "WETH",
+            "slug": "weth",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kiln Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 2.676829759908553,
+                    "balanceToken": 0.001
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "Eigenlayer Kelp Operator",
+                    "fee": 10,
+                    "users": 1,
+                    "balanceUsd": 80.34835938537177,
+                    "balanceToken": 0.030016238084605223
+                }
+            ]
+        },
+        {
+            "name": "XTZ",
+            "slug": "tezos",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "tz3dKooaL9Av4UY15AUx9uRGL5H6YyqoGSPV",
+                    "fee": 15,
+                    "users": 43,
+                    "balanceUsd": 10839057.424075121,
+                    "balanceToken": 12060881.937992
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "tz3Vq38qYD3GEbWcXHMLt5PaASZrkDtEiA8D",
+                    "fee": 10,
+                    "users": 18,
+                    "balanceUsd": 4280974.569026053,
+                    "balanceToken": 4763544.17515
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "tz3LV9aGKHDnAZHCtC9SjNtTrKRu678FqSki",
+                    "fee": 12,
+                    "users": -1,
+                    "balanceUsd": 5337533.9468586,
+                    "balanceToken": 5939203.406202
+                }
+            ]
+        },
+        {
+            "name": "ZETA",
+            "slug": "zetachain",
+            "nodes": [
+                {
+                    "nodeType": "posNode",
+                    "address": "zetavaloper1u9xeaqdjz3kky2ymdhdsn0ra5uy9tc3ep3yfhe",
+                    "fee": 10,
+                    "users": 347,
+                    "balanceUsd": 920304.1550198363,
+                    "balanceToken": 2890893.210626
+                },
+                {
+                    "nodeType": "posNode",
+                    "address": "zetavaloper10rx5qejcjwy7pup23umt434x0q7p89duvwwxam",
+                    "fee": 10,
+                    "users": 444,
+                    "balanceUsd": 184124.1320105959,
+                    "balanceToken": 578377.485572
+                }
+            ]
+        }
+    ]
+}
