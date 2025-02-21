@@ -1383,7 +1383,7 @@
             "nodes": [
                 {
                     "nodeType": "posNode",
-                    "address": "47",
+                    "address": "0xf3ad5b5d88d864559ad12e4d9b19c4f8b346c465",
                     "fee": 5,
                     "users": 336,
                     "balanceUsd": 34775076.95392527,
