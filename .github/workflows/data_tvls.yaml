@@ -1,0 +1,36 @@
+name: update tvl data
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # runs every hour
+  workflow_dispatch:     # allows manual trigger
+
+jobs:
+  update-tvl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: install dependencies
+        run: pip install requests
+
+      - name: run script to fetch and commit TVL data
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+        run: |
+          python data/scripts/tvls.py
+
+      - name: commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tvl.json
+          git commit -m "automated: update tvl data" || echo "No changes to commit"
+          git push
