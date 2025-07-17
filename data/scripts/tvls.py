@@ -11,7 +11,7 @@ QUERIES = {
         "tvl_field_key": "total_deposited_value"
     },
     "ocv2": {
-        "query_id": 2811723,
+        "query_id": 5492033,
         "tvl_field_key": "totalUnderlyingSupplyValue"
     },
     "defi": {
