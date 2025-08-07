@@ -1,0 +1,40 @@
+{
+  "info": {
+    "url_png_icon_64x64": "https://github.com/kilnfi/public/raw/main/icon-32x32.png",
+    "url_png_logo": "https://github.com/kilnfi/public/raw/main/icon.png",
+    "location": "France, Europe",
+    "social": {
+      "twitter_handle": "Kiln_finance",
+      "telegram_handle": "",
+      "facebook_handle": "",
+      "youtube_handle": "",
+      "twitch_handle": "",
+      "discord_handle": "",
+      "github_handle": "kilnfi"
+    },
+    "company": {
+      "name": "Kiln",
+      "addr": "17 rue Henry Monnier",
+      "city": "Paris",
+      "country": "France",
+      "company_id": "",
+      "vat_id": "FR00839230125"
+    },
+    "about": {
+      "me": "Kiln",
+      "server": "Kiln",
+      "company": "Kiln"
+    },
+    "rss": ""
+  },
+  "telegram-admin-handle": [
+    "ArchiFleKs",
+    "rguichard"
+  ],
+  "my-pool-ids": [
+    "pool1k3nkfa5ugavrpd9nwd3s6yyx454qxnquxwmux4rzfunl7q0z38t"
+  ],
+  "when-satured-then-recommend": [
+    "daf97e5cf7b24fddbc0235684a1edff9c078c257d05df90d3fc6dc5f"
+  ]
+}
