@@ -1,6 +1,5 @@
 <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.5" y="0.5" width="55" height="55" rx="27.5" fill="url(#paint0_linear_140_739)"/>
-<rect x="0.5" y="0.5" width="55" height="55" rx="27.5" stroke="white"/>
+<rect width="56" height="56" rx="28" fill="url(#paint0_linear_140_739)"/>
 <rect x="33.359" y="11.8056" width="11" height="32.2181" rx="5.5" transform="rotate(37.708 33.359 11.8056)" stroke="white" stroke-width="4"/>
 <defs>
 <linearGradient id="paint0_linear_140_739" x1="28" y1="0" x2="28" y2="56" gradientUnits="userSpaceOnUse">
