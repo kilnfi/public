@@ -29,8 +29,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Log runner IP
-        run: curl -s https://ipinfo.io/ip || curl -s https://ifconfig.me || curl -s https://icanhazip.com
+      - name: Show egress IP
+        run: |
+          echo "Public IP: $(curl -s https://ifconfig.me || curl -s https://api.ipify.org)"
+
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
