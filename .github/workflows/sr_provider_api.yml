@@ -1,0 +1,29 @@
+name: update sr provider api data
+
+on:
+  # schedule:
+  #   - cron: '0 10 * * 1'  # runs every monday 10am
+  workflow_dispatch:      # allows manual trigger
+
+jobs:
+  update-tvl:
+    runs-on: fixed-egress-4c-16g
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Fetch data from finance repository
+        run: |
+          curl -H "Authorization: token ${{ secrets.FINANCE_GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3.raw" \
+               -L https://api.github.com/repos/kilnfi/finance-scripts/contents/path/to/data.json \
+               -o provider_api/data.json
+
+      - name: commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add provider_api/data.json
+          git commit -m "automated: update sr provider api data" || echo "No changes to commit"
+          git push
