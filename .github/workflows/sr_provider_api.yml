@@ -17,7 +17,7 @@ jobs:
         run: |
           curl -H "Authorization: token ${{ secrets.FINANCE_GITHUB_TOKEN }}" \
                -H "Accept: application/vnd.github.v3.raw" \
-               -L https://api.github.com/repos/kilnfi/finance-scripts/contents/path/to/data.json \
+               -L https://api.github.com/repos/kilnfi/finance-scripts/contents/src/staking_rewards/data.json \
                -o provider_api/data.json
 
       - name: commit and push changes
