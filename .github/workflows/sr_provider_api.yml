@@ -15,7 +15,7 @@ jobs:
       
       - name: Fetch data from finance repository
         run: |
-          curl -H "Authorization: token ${{ secrets.FINANCE_GITHUB_TOKEN }}" \
+          curl -H "Authorization: token ${{ secrets.GH_PAT_FINANCE }}" \
                -H "Accept: application/vnd.github.v3.raw" \
                -L https://api.github.com/repos/kilnfi/finance-scripts/contents/src/staking_rewards/data.json \
                -o provider_api/data.json
