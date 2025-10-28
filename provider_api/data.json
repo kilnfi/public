@@ -2,6 +2,8 @@
     "name": "Kiln",
     "users": 94923,
     "balanceUsd": 5081348730.134904,
+    "balanceUsdDisplay": "$5,081,348,730.13",
+    "updatedAt": "2025-10-27 09:11:54",
     "supportedAssets": [
         {
             "name": "ADA",
@@ -1541,7 +1543,5 @@
                 }
             ]
         }
-    ],
-    "updatedAt": "2025-10-27 09:11:54",
-    "balanceUsdDisplay": "$5,081,348,730.13"
+    ]
 }
