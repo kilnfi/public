@@ -1,9 +1,9 @@
 {
     "name": "Kiln",
-    "users": 99509,
-    "balanceUsd": 2123398618.5851197,
-    "balanceUsdDisplay": "$2,123,398,618.59",
-    "updatedAt": "2026-03-30 08:16:05",
+    "users": 99995,
+    "balanceUsd": 2052194700.079042,
+    "balanceUsdDisplay": "$2,052,194,700.08",
+    "updatedAt": "2026-04-06 08:15:56",
     "supportedAssets": [
         {
             "name": "ADA",
@@ -14,88 +14,88 @@
                     "address": "7b75bdba3b996dc88fdc00099d794d1460cf6bf7a5997a0da1197f4e",
                     "fee": 5,
                     "users": 38,
-                    "balanceUsd": 18194881.757610936,
-                    "balanceToken": 75962190.495205
+                    "balanceUsd": 18799874.159519657,
+                    "balanceToken": 75153921.687939
                 },
                 {
                     "nodeType": "posNode",
                     "address": "78da8fa2f5089964963a0ab7ad1402e8c656f203bef622cf9f5ee3c6",
                     "fee": 5,
                     "users": 94,
-                    "balanceUsd": 14474306.264061727,
-                    "balanceToken": 60429082.439993
+                    "balanceUsd": 15073839.67626921,
+                    "balanceToken": 60258816.466239
                 },
                 {
                     "nodeType": "posNode",
                     "address": "2d93bd7c54e3bd327c0af41c38ebdb03498df11e5b325aff5789a02d",
                     "fee": 5,
                     "users": 100,
-                    "balanceUsd": 13950493.280423608,
-                    "balanceToken": 58242204.71377
+                    "balanceUsd": 14834748.661113406,
+                    "balanceToken": 59303032.013809
                 },
                 {
                     "nodeType": "posNode",
                     "address": "e81076184cf505790a526960a7a79a1bcc2f3c9f3fed15e7b8713c02",
                     "fee": 3,
                     "users": 33,
-                    "balanceUsd": 14090369.785189252,
-                    "balanceToken": 58826178.044422
+                    "balanceUsd": 14737171.324104765,
+                    "balanceToken": 58912959.214287
                 },
                 {
                     "nodeType": "posNode",
                     "address": "4e0356a826bbf3e0525cd4612061a1304710b0c8d12df5457ac17cdf",
-                    "fee": 3,
-                    "users": 70,
-                    "balanceUsd": 301341.60015135835,
-                    "balanceToken": 1258077.3175540003
+                    "fee": 5,
+                    "users": 69,
+                    "balanceUsd": 314753.88142092875,
+                    "balanceToken": 1258252.494382
                 },
                 {
                     "nodeType": "posNode",
                     "address": "4744b317cba46d5f247e51d4df3d72c9e2a8b18231c30ba1708bd65b",
                     "fee": 10,
-                    "users": -1,
-                    "balanceUsd": 27734503.315359805,
-                    "balanceToken": 115789355.061348
+                    "users": 100,
+                    "balanceUsd": 28320469.60948103,
+                    "balanceToken": 113213223.510799
                 },
                 {
                     "nodeType": "posNode",
                     "address": "pool1k3nkfa5ugavrpd9nwd3s6yyx454qxnquxwmux4rzfunl7q0z38t",
                     "fee": 5,
                     "users": 6,
-                    "balanceUsd": 25394464.061900962,
-                    "balanceToken": 106019876.484597
+                    "balanceUsd": 26531628.654373936,
+                    "balanceToken": 106062196.226703
                 },
                 {
                     "nodeType": "posNode",
                     "address": "daf97e5cf7b24fddbc0235684a1edff9c078c257d05df90d3fc6dc5f",
                     "fee": 3,
-                    "users": 22,
-                    "balanceUsd": 16904962.37337917,
-                    "balanceToken": 70576879.214054
+                    "users": 23,
+                    "balanceUsd": 17670244.125062063,
+                    "balanceToken": 70638140.016976
                 },
                 {
                     "nodeType": "posNode",
                     "address": "dacdbb3e160587423dc699830ace34969d3280ed48cea25551633e1a",
                     "fee": 3,
-                    "users": 40,
-                    "balanceUsd": 829854.4721065096,
-                    "balanceToken": 3464576.705319
+                    "users": 41,
+                    "balanceUsd": 867545.5259886504,
+                    "balanceToken": 3468078.986468
                 },
                 {
                     "nodeType": "posNode",
                     "address": "pool1qxpjz94fpwdwnltngf036yjkh63nrl55xkshug56aukqqwn6gsn",
                     "fee": 10,
-                    "users": 39,
-                    "balanceUsd": 12832.514844525129,
-                    "balanceToken": 53574.733276
+                    "users": 46,
+                    "balanceUsd": 38789.18948881001,
+                    "balanceToken": 155062.724593
                 },
                 {
                     "nodeType": "posNode",
                     "address": "66958f34aa3334825ea628ee90d9c2f85ca204d62a8cc1759db22262",
                     "fee": 3,
                     "users": 42,
-                    "balanceUsd": 18192691.67629085,
-                    "balanceToken": 75953047.079125
+                    "balanceUsd": 18949076.0880544,
+                    "balanceToken": 75752881.655801
                 }
             ]
         },
@@ -108,79 +108,79 @@
                     "address": "3UDVJVLH6KIISVHVQYBTJTBKJOLZJYDXQBDT4RR3S54N67ZXY2XZSXEYPQ",
                     "fee": 10,
                     "users": 63,
-                    "balanceUsd": 3864831.7453208202,
-                    "balanceToken": 47700568.605942
+                    "balanceUsd": 4875867.409940658,
+                    "balanceToken": 47718450.634178
                 },
                 {
                     "nodeType": "posNode",
                     "address": "3UH7TH7JDHY7THADR3POAZJJFF4C7VPAPZV35NWN6WZ6GT775LYJDL4RYA",
                     "fee": 7,
                     "users": 6,
-                    "balanceUsd": 25249.06247843666,
-                    "balanceToken": 311629.254869
+                    "balanceUsd": 31854.803562396814,
+                    "balanceToken": 311752.093208
                 },
                 {
                     "nodeType": "posNode",
                     "address": "644QQ67PMAIWVZ4VKV6A5GNGWHF3YO5YCDRJA5ABS4ECQ75RZBEUGSDNTY",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 5329989.174471263,
-                    "balanceToken": 65783850.640745
+                    "balanceUsd": 6736709.945015809,
+                    "balanceToken": 65929881.582224
                 },
                 {
                     "nodeType": "posNode",
                     "address": "CRTAUOE76O76I3WDS4FKYRWYSMBPMV4TRG4O5PZWIY7ZHIGQROREQY6F6Y",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 266843.347709635,
-                    "balanceToken": 3268427.5635739937
+                    "balanceUsd": 4887751.139215614,
+                    "balanceToken": 47834752.637715
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FKDXPRVUHAJKVDDAROMO4W3P256I46Y5J3LYPK3COYEBXRJEETB27DZZMA",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 4819035.00372731,
-                    "balanceToken": 59477546.490358
+                    "balanceUsd": 6069733.745178479,
+                    "balanceToken": 59402413.095033
                 },
                 {
                     "nodeType": "posNode",
                     "address": "K4OPPHVHENVOFF7UNCUHAVGHZZNA7VIRKJNTA7A4NZT4PPQBY72DM6COSU",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 266146.9703907784,
-                    "balanceToken": 3284842.046684
+                    "balanceUsd": 3170675.000897767,
+                    "balanceToken": 31030314.359841
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NYMNQ7BFWNKTNJE6U6EGTNSBQIAAERDRHD3VIEINQYFHGSMJXE7CIP6GI4",
                     "fee": 100,
                     "users": -1,
-                    "balanceUsd": 4162050.032344597,
-                    "balanceToken": 51368899.396353
+                    "balanceUsd": 5248872.672773748,
+                    "balanceToken": 51368925.867467
                 },
                 {
                     "nodeType": "posNode",
                     "address": "RLQLT2SKHF24QUGUUMVZAM672FNWFNSM5I2XGZNCHJVHDVFU7GMCQAXVVE",
                     "fee": 7,
-                    "users": 47,
-                    "balanceUsd": 3080730.262091723,
-                    "balanceToken": 38023022.710167
+                    "users": 48,
+                    "balanceUsd": 3886159.4952783147,
+                    "balanceToken": 38032516.97409
                 },
                 {
                     "nodeType": "posNode",
                     "address": "U5P6Q4YYAEZPRUJZNKGOIICBO7CYZVD5EDRMGE35G2D35IULQYWGWN3GCU",
                     "fee": 10,
-                    "users": 194,
-                    "balanceUsd": 5460794.2107086005,
-                    "balanceToken": 67398273.988565
+                    "users": 193,
+                    "balanceUsd": 5359013.372427221,
+                    "balanceToken": 52446835.313592
                 },
                 {
                     "nodeType": "posNode",
                     "address": "UDYUM7BGCA2FR3EXUGJDB2OCY64HS2SH5PQQJPCMLQZ6BOXCQLCSY2SITE",
                     "fee": 100,
                     "users": -1,
-                    "balanceUsd": 3375704.237275402,
+                    "balanceUsd": 4257188.7541102525,
                     "balanceToken": 41663653.730457
                 }
             ]
@@ -194,16 +194,16 @@
                     "address": "0x63b0a7343c481fe176603e4e30cc5acc521c75d4310ce1b7b657c8168df66c66",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 2278667.679405653,
-                    "balanceToken": 2479261.4912174824
+                    "balanceUsd": 2104211.7207893203,
+                    "balanceToken": 2479849.2809696263
                 },
                 {
                     "nodeType": "posNode",
                     "address": "0x9a41af5c002f91dc29cb2843ab823e3d6cdaa6cc86e6331646a4f1328609a744",
                     "fee": 100,
                     "users": 1,
-                    "balanceUsd": 2184963.094039154,
-                    "balanceToken": 2377307.98033508
+                    "balanceUsd": 2016192.1733746107,
+                    "balanceToken": 2376116.74815883
                 }
             ]
         },
@@ -215,25 +215,25 @@
                     "nodeType": "posNode",
                     "address": "cosmosvaloper15gyzcp2kas2yntv9k3p0zm4k8y6e89ecmkeqee",
                     "fee": 8,
-                    "users": 194,
-                    "balanceUsd": 21762411.739384405,
-                    "balanceToken": 13255739.323123
+                    "users": 195,
+                    "balanceUsd": 22858338.754566185,
+                    "balanceToken": 13490877.072671
                 },
                 {
                     "nodeType": "posNode",
                     "address": "cosmosvaloper1k6e7l0lz497l8njqjxpd3g4wlkdfwe93uqf03k",
                     "fee": 10,
-                    "users": 15805,
-                    "balanceUsd": 2803475.0123206815,
-                    "balanceToken": 1707629.393619
+                    "users": 15796,
+                    "balanceUsd": 2750216.068771908,
+                    "balanceToken": 1623163.752426
                 },
                 {
                     "nodeType": "posNode",
                     "address": "cosmosvaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjqvwdul2",
                     "fee": 8,
-                    "users": 1410,
-                    "balanceUsd": 4661907.086390233,
-                    "balanceToken": 2839622.089034
+                    "users": 1412,
+                    "balanceUsd": 4833411.925754029,
+                    "balanceToken": 2852655.515874
                 }
             ]
         },
@@ -246,7 +246,7 @@
                     "address": "NodeID-4n7fR6oCvCh3Dxp9iFTiCYSDYWyLXAmr6",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 709569.6173490386,
+                    "balanceUsd": 747830.3273367647,
                     "balanceToken": 82627.514058664
                 },
                 {
@@ -254,7 +254,7 @@
                     "address": "NodeID-6sLurE42nazb1jqdtQrHRJjVQm9goufDY",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 6011299.478182051,
+                    "balanceUsd": 6335434.813687766,
                     "balanceToken": 700000.0
                 },
                 {
@@ -262,15 +262,15 @@
                     "address": "NodeID-8MGoTPUouB48snkWNZFXzpD7nuyWLD7Xt",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 209012.03919609054,
-                    "balanceToken": 24338.901757979
+                    "balanceUsd": 220974.09431751963,
+                    "balanceToken": 24415.35120653
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NodeID-8vurcQrXtt3ovy1yWnKkxyHydFbCCJ9AQ",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 430020.0154567018,
+                    "balanceUsd": 453207.1287406308,
                     "balanceToken": 50074.698808838
                 },
                 {
@@ -278,7 +278,7 @@
                     "address": "NodeID-A8X5CqiZhsqSEGNUNqZifHqskMvSUJBG",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 6738950.104874622,
+                    "balanceUsd": 7102321.096642345,
                     "balanceToken": 784733.0
                 },
                 {
@@ -286,7 +286,7 @@
                     "address": "NodeID-AC2FHxLu2Zx2ULsKUkU7jgKKurfDH2HCm",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 353301.8657359784,
+                    "balanceUsd": 372352.2589497531,
                     "balanceToken": 41141.07222786
                 },
                 {
@@ -294,23 +294,23 @@
                     "address": "NodeID-DFZqT6DxzBrwqc6SCwnDbeoWPQtZscuiL",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 6011299.478182051,
-                    "balanceToken": 700000.0
+                    "balanceUsd": 6878472.083432431,
+                    "balanceToken": 760000.0
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NodeID-DXvKQyCiZHz7DubHxd49RxNEQwpZejcSe",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 827670.3692209546,
-                    "balanceToken": 96380.03572397
+                    "balanceUsd": 818495.5365199399,
+                    "balanceToken": 90435.28856553
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NodeID-F3rZS6LcSBDGF1Y28QFdRi7ZjESmS5aHD",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 178096.987458583,
+                    "balanceUsd": 187700.1567886033,
                     "balanceToken": 20738.925364389
                 },
                 {
@@ -318,23 +318,23 @@
                     "address": "NodeID-GcNLmhPScWKS8ckmENJKepJVYWTifo2oB",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 256169.24548207893,
+                    "balanceUsd": 269982.1497687392,
                     "balanceToken": 29830.23429265
                 },
                 {
                     "nodeType": "posNode",
-                    "address": "NodeID-Krsv3YUvmYVzDCuG3KkkJE54jLZVDAmkx",
+                    "address": "NodeID-LHbiZ4wCi7J79R5ZU3fbnm7jsWvxiaCfc",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 498038.2418564826,
-                    "balanceToken": 57995.2422209
+                    "balanceUsd": 64224.98896972206,
+                    "balanceToken": 7096.19680431
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NodeID-PM5DMvZ18aKJMFDBb16XQFt2cKegpBb91",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 206798.1665515793,
+                    "balanceUsd": 217948.93242848324,
                     "balanceToken": 24081.102116357
                 },
                 {
@@ -342,30 +342,8 @@
                     "address": "NodeID-QFqW2naS7irCybqFjdHrpF1z4SqHriSWb",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 25064.53688239836,
-                    "balanceToken": 2918.699339695
-                }
-            ]
-        },
-        {
-            "name": "BABY",
-            "slug": "babylon",
-            "nodes": [
-                {
-                    "nodeType": "posNode",
-                    "address": "bbnvaloper1u9xeaqdjz3kky2ymdhdsn0ra5uy9tc3eeffvn8",
-                    "fee": 8,
-                    "users": -1,
-                    "balanceUsd": 356.19002205324915,
-                    "balanceToken": 26904.284153
-                },
-                {
-                    "nodeType": "posNode",
-                    "address": "bbnvaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjqrxz9qp",
-                    "fee": 8,
-                    "users": -1,
-                    "balanceUsd": 661969.2073986159,
-                    "balanceToken": 50000860.646585
+                    "balanceUsd": 38874.75308964284,
+                    "balanceToken": 4295.258015118
                 }
             ]
         },
@@ -378,16 +356,16 @@
                     "address": "crocncl1lqm9hhzuqgutgswlff5yf9kmn7vx6pmksk4kvs",
                     "fee": 5,
                     "users": 296,
-                    "balanceUsd": 96487.61165480019,
-                    "balanceToken": 1375614.027307
+                    "balanceUsd": 96457.32686809292,
+                    "balanceToken": 1385341.179321
                 },
                 {
                     "nodeType": "posNode",
                     "address": "crocncl1x0latp7jgk2hf27wakpnafnc4puvdwgq3nwd3r",
-                    "fee": 5,
-                    "users": 163,
-                    "balanceUsd": 3520840.924077574,
-                    "balanceToken": 50196269.552255
+                    "fee": 15,
+                    "users": 160,
+                    "balanceUsd": 3770798.8476112727,
+                    "balanceToken": 54157035.988316
                 }
             ]
         },
@@ -400,64 +378,64 @@
                     "address": "118",
                     "fee": 100,
                     "users": 77,
-                    "balanceUsd": 3665868.0856999187,
-                    "balanceToken": 2921452.209026785
+                    "balanceUsd": 3568660.1727048275,
+                    "balanceToken": 2871445.409026785
                 },
                 {
                     "nodeType": "posNode",
                     "address": "13REihPMQRbujGMrSUyCvWhg1Rrzuy2BAyXaRv4KXFyCsrMq",
                     "fee": 100,
                     "users": 2,
-                    "balanceUsd": 2170930.9734301637,
-                    "balanceToken": 1730087.1007095445
+                    "balanceUsd": 2109873.9292199016,
+                    "balanceToken": 1696987.75257496
                 },
                 {
                     "nodeType": "posNode",
                     "address": "1497QNdycmxqMi3VJDxZDhaJh4s9tytr5RFWyrLcNse2xqPD",
                     "fee": 100,
                     "users": 3,
-                    "balanceUsd": 2169541.532935784,
-                    "balanceToken": 1728979.8093649785
+                    "balanceUsd": 2108316.734138944,
+                    "balanceToken": 1695735.2886508564
                 },
                 {
                     "nodeType": "posNode",
                     "address": "14e6xD5f8MuyWqLNanZDqSGe9TEzNMn29namWpKBJBa5ukwJ",
                     "fee": 100,
                     "users": 2,
-                    "balanceUsd": 674735.5904449808,
-                    "balanceToken": 537719.2346074617
+                    "balanceUsd": 916367.2403662166,
+                    "balanceToken": 737041.1863126574
                 },
                 {
                     "nodeType": "posNode",
                     "address": "14v1KAyrm7LQJJvRpRP44qpf36uQWkRT1mzqUQzDY92r7BDa",
                     "fee": 100,
                     "users": 1,
-                    "balanceUsd": 2170302.3284453293,
-                    "balanceToken": 1729586.1126115816
+                    "balanceUsd": 2109070.5542011503,
+                    "balanceToken": 1696341.5918974595
                 },
                 {
                     "nodeType": "posNode",
                     "address": "15XU7uzAP3nS7inBaWDNdZQXN8oXLnhkxUX7sink7HfxW752",
                     "fee": 100,
                     "users": 1,
-                    "balanceUsd": 2170302.3284453293,
-                    "balanceToken": 1729586.1126115816
+                    "balanceUsd": 2109070.5542011503,
+                    "balanceToken": 1696341.5918974592
                 },
                 {
                     "nodeType": "posNode",
                     "address": "16FCPBq8sa9CZvCRV3TPYtRBrES3dk1BVDaYiceTg2c99jsF",
                     "fee": 100,
                     "users": 1,
-                    "balanceUsd": 2170120.164409032,
-                    "balanceToken": 1729440.940032044
+                    "balanceUsd": 2108890.0603582575,
+                    "balanceToken": 1696196.4193179216
                 },
                 {
                     "nodeType": "posNode",
                     "address": "1edsjLpqQ4QxtgLPP5xQiNNkjzKcXuaNmUQ6vc944J1jQAa",
                     "fee": 100,
                     "users": 1,
-                    "balanceUsd": 2170302.3284453293,
-                    "balanceToken": 1729586.1126115816
+                    "balanceUsd": 2109070.5542011503,
+                    "balanceToken": 1696341.5918974595
                 }
             ]
         },
@@ -470,8 +448,8 @@
                     "address": "dydxvaloper1u9xeaqdjz3kky2ymdhdsn0ra5uy9tc3elj2jte",
                     "fee": 5,
                     "users": 352,
-                    "balanceUsd": 585706.0109476295,
-                    "balanceToken": 6256784.225722
+                    "balanceUsd": 704740.1195147142,
+                    "balanceToken": 6961828.457932999
                 }
             ]
         },
@@ -484,7 +462,7 @@
                     "address": "Operator for Swell Network",
                     "fee": 100,
                     "users": -1,
-                    "balanceUsd": 698080.8270066875,
+                    "balanceUsd": 742369.9556659764,
                     "balanceToken": 352.0,
                     "liquidStakingProvider": "swell-network"
                 },
@@ -493,8 +471,8 @@
                     "address": "VaaS",
                     "fee": 0,
                     "users": -1,
-                    "balanceUsd": 573358374.7042711,
-                    "balanceToken": 289110.0
+                    "balanceUsd": 610017203.0018456,
+                    "balanceToken": 289244.0
                 }
             ]
         },
@@ -506,17 +484,17 @@
                     "nodeType": "posNode",
                     "address": "fetchvaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7ryjvncp",
                     "fee": 10,
-                    "users": 396,
-                    "balanceUsd": 614415.1028208125,
-                    "balanceToken": 2689079.695387
+                    "users": 395,
+                    "balanceUsd": 137490.59138381248,
+                    "balanceToken": 586326.582475
                 },
                 {
                     "nodeType": "posNode",
                     "address": "fetchvaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjqlr0wzf",
                     "fee": 10,
-                    "users": 206,
-                    "balanceUsd": 24089200.059094228,
-                    "balanceToken": 105429990.994081
+                    "users": 214,
+                    "balanceUsd": 24799803.18022447,
+                    "balanceToken": 105758391.88968399
                 }
             ]
         },
@@ -529,7 +507,7 @@
                     "address": "NodeID-78MUvGDAGt5bJWKgxBbayhoq9cuYgw8rz",
                     "fee": 15,
                     "users": -1,
-                    "balanceUsd": 1588960.7435297193,
+                    "balanceUsd": 1540831.4645869667,
                     "balanceToken": 199999999.3703401
                 },
                 {
@@ -537,24 +515,24 @@
                     "address": "NodeID-7ady1Dgt1oZwpjQk9BpZaNA5d8LLjDbLi",
                     "fee": 15,
                     "users": -1,
-                    "balanceUsd": 1108718.5000751887,
-                    "balanceToken": 139552660.58011004
+                    "balanceUsd": 1293948.3028846653,
+                    "balanceToken": 167954552.92156604
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NodeID-ATh44ex3pGUFsDNtZEFwopfeNttczGriP",
                     "fee": 15,
                     "users": -1,
-                    "balanceUsd": 494886.8450813803,
-                    "balanceToken": 62290631.85336927
+                    "balanceUsd": 510302.73829493026,
+                    "balanceToken": 66237320.35808805
                 },
                 {
                     "nodeType": "posNode",
                     "address": "NodeID-ZPP3u3NyjAbTeGUzgjgTLwiuwuojzAeG",
                     "fee": 15,
                     "users": -1,
-                    "balanceUsd": 2178222.407214457,
-                    "balanceToken": 266673049.55681607
+                    "balanceUsd": 1501487.1468023884,
+                    "balanceToken": 194893105.0
                 }
             ]
         },
@@ -567,40 +545,40 @@
                     "address": "injvaloper1dyntafvjynns5zyltwgyktej0y5zt84y3npkt4",
                     "fee": 10,
                     "users": 2761,
-                    "balanceUsd": 660310.2739123581,
-                    "balanceToken": 236387.949756
+                    "balanceUsd": 672805.5640081969,
+                    "balanceToken": 239030.013112
                 },
                 {
                     "nodeType": "posNode",
                     "address": "injvaloper1hjsckuww8tglaf5zk590la4k0v853j5qswcvw4",
                     "fee": 7,
                     "users": 1,
-                    "balanceUsd": 2.7933330552337012,
+                    "balanceUsd": 2.8147325737414697,
                     "balanceToken": 1.0
                 },
                 {
                     "nodeType": "posNode",
                     "address": "injvaloper1rf0fczrw2gnhuju86kmjtku4dvf9dcc2mpe7pe",
                     "fee": 10,
-                    "users": 414,
-                    "balanceUsd": 62464.67821906632,
-                    "balanceToken": 22362.058868
+                    "users": 413,
+                    "balanceUsd": 62887.09571702601,
+                    "balanceToken": 22342.12099
                 },
                 {
                     "nodeType": "posNode",
                     "address": "injvaloper1u8npsgrcyk4csp0cpzecwkvcqw4e6thqzcrvp7",
                     "fee": 7,
-                    "users": 117,
-                    "balanceUsd": 1387.0127043313025,
-                    "balanceToken": 496.543977
+                    "users": 115,
+                    "balanceUsd": 1396.7940865849125,
+                    "balanceToken": 496.243977
                 },
                 {
                     "nodeType": "posNode",
                     "address": "injvaloper1vm2gflv53mzy9ak4f8cr9ml3xus980wywe9fx2",
                     "fee": 10,
                     "users": 22,
-                    "balanceUsd": 4464977.19613188,
-                    "balanceToken": 1598440.682813
+                    "balanceUsd": 4383888.10905836,
+                    "balanceToken": 1557479.438706
                 }
             ]
         },
@@ -613,24 +591,24 @@
                     "address": "0x303db99c56283dba10c014f90fce2691cba6e7ea661fd3331d95b6e76ada9a19",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 619715.0922793903,
-                    "balanceToken": 11636466.910384756
+                    "balanceUsd": 686685.1264318977,
+                    "balanceToken": 11605705.458003186
                 },
                 {
                     "nodeType": "posNode",
                     "address": "0x843151a92e25b320fa722272be32951eb1a164cd1c658afa48c900beede75bc8",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 199785.37113080046,
-                    "balanceToken": 3751394.615534704
+                    "balanceUsd": 222249.12384984922,
+                    "balanceToken": 3756245.432463768
                 },
                 {
                     "nodeType": "posNode",
                     "address": "0x9fd70830febdaff0a1ccd99923085de52621e97173e31649f2c1c7a1699205fd",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 8676692.62244777,
-                    "balanceToken": 162923330.17310768
+                    "balanceUsd": 9623843.703346614,
+                    "balanceToken": 162653144.9359657
                 }
             ]
         },
@@ -643,7 +621,7 @@
                     "address": "storyvaloper1pp3fe24mzwqegfe0j54pfzy8j5u5w2s3vpkfr8",
                     "fee": 7,
                     "users": -1,
-                    "balanceUsd": 52523.58339424773,
+                    "balanceUsd": 50033.35159967759,
                     "balanceToken": 101024.0
                 },
                 {
@@ -651,8 +629,8 @@
                     "address": "storyvaloper1w5yxz5zjv9xgpzpm9f3ju2hwcg6x8kz478s5ay",
                     "fee": 7,
                     "users": -1,
-                    "balanceUsd": 3589903.7547810683,
-                    "balanceToken": 4249024.0
+                    "balanceUsd": 507.1483215678438,
+                    "balanceToken": 1024.0
                 }
             ]
         },
@@ -665,248 +643,248 @@
                     "address": "DdP4DrVu6t1nSyArSu8YvKA7kvrBaeGGMrvH5mo91Uno41N",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 81474.18930853988,
-                    "balanceToken": 19863.093114995536
+                    "balanceUsd": 82791.97916902308,
+                    "balanceToken": 19875.728722954536
                 },
                 {
                     "nodeType": "posNode",
                     "address": "DtiPYpVb7sPrmih6HUTCYfqyRGNpnHkJDtb7kPK3ebBNWmJ",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36875.066216622225,
-                    "balanceToken": 8989.998919886397
+                    "balanceUsd": 37323.92137475571,
+                    "balanceToken": 8960.28991657553
                 },
                 {
                     "nodeType": "posNode",
                     "address": "DtmGbuQ3J9GqtH6CZpJMBV7uKan7Su8LpJtvuuqGTgzDgx2",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36863.1787033351,
-                    "balanceToken": 8987.100789996039
+                    "balanceUsd": 37359.971524184,
+                    "balanceToken": 8968.94441424125
                 },
                 {
                     "nodeType": "posNode",
                     "address": "DwJz3Jxphh3oBznnBkbRpDCdRAL714ZK94Hn1otpYcDvvWf",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37311.90465827961,
+                    "balanceToken": 8957.405084020289
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EJKbMXUPkoBWoP5ZvSLMPwKtN323vLP9bfDYUfnXguJQUA9",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37311.90465827961,
+                    "balanceToken": 8957.405084020289
                 },
                 {
                     "nodeType": "posNode",
                     "address": "ELu2FSqBsVJ15Y4o6fvkqkyQVxNCFikGq9uJnE8Rvg28bWD",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36857.13525978782,
-                    "balanceToken": 8985.627421768215
+                    "balanceUsd": 37337.845634301484,
+                    "balanceToken": 8963.63268973034
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EMna7WSFZ7oqhFCsHhwLLQ7hwNDkXnN7DrY8mpsxD6pTJ2U",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36851.15910469807,
-                    "balanceToken": 8984.170458206812
+                    "balanceUsd": 37321.4590490472,
+                    "balanceToken": 8959.698790257484
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EUnyaJX1VkQs4BobTWqTerb3V6tS9V5kL9hAcg1RhcSshCF",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36863.1787033351,
-                    "balanceToken": 8987.100789996039
+                    "balanceUsd": 37359.971524184,
+                    "balanceToken": 8968.94441424125
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EXpcK4UesUwLL6tcBTnqiAFQMD8tHaeiGYFuhcSNpELGHGM",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37304.35705174991,
+                    "balanceToken": 8955.593143040045
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EYMFYTakhnBxjMocHnCGrNnmu5dF8MwZLr9k1rybL1XtzRs",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37305.202820145976,
+                    "balanceToken": 8955.796185211175
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EqYrURd7LWw6B2Z1YvPWbrZAMGWvPaUcQNSYEJA8JnLRJSS",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37313.23179878272,
+                    "balanceToken": 8957.723688369186
                 },
                 {
                     "nodeType": "posNode",
                     "address": "F33g5JiJwo4XLN7L5k22851jaKFqnbYur7Qwng7MvUNnmU6",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 37127.078233540284,
-                    "balanceToken": 9051.438477623937
+                    "balanceUsd": 37359.971524184,
+                    "balanceToken": 8968.94441424125
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FAr1jmqaGhbbL2q61nZsAqy7oN3UeKiWuNaFcEUCeRKucEE",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37311.90465827961,
+                    "balanceToken": 8957.405084020289
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FEjbWr2S3ihzzywi4w77JYsRwEUvhfjjCwrjzsXF5GyQWQK",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37313.636067263484,
+                    "balanceToken": 8957.820740411373
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FPQTkKj7hTofm6Zkbvt9rmBDoDih21K21iVS7Jeb6jASCbe",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36456.375644856045,
-                    "balanceToken": 8887.923773340684
+                    "balanceUsd": 37311.90465827961,
+                    "balanceToken": 8957.405084020289
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FTacV62RTSkTgw82NU7GvES1bwKSL89n4qGBFsiySRvUHxR",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37326.6486765526,
+                    "balanceToken": 8960.94465524955
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FV3za2fceAXtw4KwVnPJK4c4Y2ph8VNMEA26MkgjTaEA76u",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36857.526999970294,
-                    "balanceToken": 8985.722926513796
+                    "balanceUsd": 37325.805033007484,
+                    "balanceToken": 8960.74212318775
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FaQeh5SM5AoUuHfieuJxGLBrxHVgJfbndgxrQjR62i9JYTx",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37308.21890469026,
+                    "balanceToken": 8956.520251465048
                 },
                 {
                     "nodeType": "posNode",
                     "address": "FzETcdKFC3YCTGGc8MY7vFthLXSeR5fAWaVxQwQeZvXwGgW",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37311.90465827961,
+                    "balanceToken": 8957.405084020289
                 },
                 {
                     "nodeType": "posNode",
                     "address": "GD5NopXoaxtyNcn4w1Esfz3WrxtUeYgYJ8brvcH1ha38ejM",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37311.90465827961,
+                    "balanceToken": 8957.405084020289
                 },
                 {
                     "nodeType": "posNode",
                     "address": "GPZSN4gPpDCYNZGaqPsAE3FkUwBgBLLBNJMMc3wzzrKhU7H",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36875.066216622225,
-                    "balanceToken": 8989.998919886397
+                    "balanceUsd": 37321.64400098806,
+                    "balanceToken": 8959.743191353342
                 },
                 {
                     "nodeType": "posNode",
                     "address": "GQu1iE5xsaZBo4GYwooWnuU23ARbwXTGb7Vm96PkSB1ACZY",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 81472.4528014152,
-                    "balanceToken": 19862.66976125609
+                    "balanceUsd": 82834.49254990328,
+                    "balanceToken": 19885.934837531717
                 },
                 {
                     "nodeType": "posNode",
                     "address": "GVUWGSMtHBK7n1jHAej7HFA7hoYcraTV9QU5nYxv8sxXMBK",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36863.1787033351,
-                    "balanceToken": 8987.100789996039
+                    "balanceUsd": 37359.971524184,
+                    "balanceToken": 8968.94441424125
                 },
                 {
                     "nodeType": "posNode",
                     "address": "Gki3STHsjnigHosVtDgwYgrLjAQKh7Gye2wv3twsiZPzNUf",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36859.2201924801,
-                    "balanceToken": 8986.1357203172
+                    "balanceUsd": 37341.627560360976,
+                    "balanceToken": 8964.54061024587
                 },
                 {
                     "nodeType": "posNode",
                     "address": "Gns7TFE3UfUjG79uiGRxBXYLhi9oUpBfwyuLKuCFU5JzXch",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36853.118252698936,
-                    "balanceToken": 8984.648090933171
+                    "balanceUsd": 37636.26428925926,
+                    "balanceToken": 9035.273545418799
                 },
                 {
                     "nodeType": "posNode",
                     "address": "Gr5B3tJYQekuMWuUYy8Xe4agxnFfzN5fDLBwPo5kboZezS2",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 81474.18930853988,
-                    "balanceToken": 19863.093114995536
+                    "balanceUsd": 82837.36926941553,
+                    "balanceToken": 19886.625446660903
                 },
                 {
                     "nodeType": "posNode",
                     "address": "HCMK1Zq6o5UxCroyHXnXkynyHiJVqQxAUoAqPNVvWFHFar7",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36854.68275746614,
-                    "balanceToken": 8985.029511161263
+                    "balanceUsd": 37325.48363752541,
+                    "balanceToken": 8960.664966324506
                 },
                 {
                     "nodeType": "posNode",
                     "address": "Hf6btzVbZC9A7KbRVaDDjD68VRx1w8sCHn4zeDimQbjEyee",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36839.40367676088,
-                    "balanceToken": 8981.304530215326
+                    "balanceUsd": 37305.557277588494,
+                    "balanceToken": 8955.881279202671
                 },
                 {
                     "nodeType": "posNode",
                     "address": "JC8B2s732heisDkwdgUs1QakHpCzWYVvWcjc1TotN18i5zf",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36875.06621662219,
-                    "balanceToken": 8989.99891988639
+                    "balanceUsd": 37323.92137475571,
+                    "balanceToken": 8960.28991657553
                 },
                 {
                     "nodeType": "posNode",
                     "address": "JL8TF9EXAruw1C9BLafRw1143R2P7orG6xYMeeumF6q3cWL",
                     "fee": 15,
                     "users": 0,
-                    "balanceUsd": 36859.61201912106,
-                    "balanceToken": 8986.231246141026
+                    "balanceUsd": 37314.09596479083,
+                    "balanceToken": 8957.93114722355
                 },
                 {
                     "nodeType": "posNode",
                     "address": "kiln.kusama",
                     "fee": 100,
                     "users": -1,
-                    "balanceUsd": 1137291.9667024836,
-                    "balanceToken": 277267.3950519444
+                    "balanceUsd": 1151500.505613124,
+                    "balanceToken": 276438.7553435208
                 }
             ]
         },
@@ -919,8 +897,8 @@
                     "address": "mantravaloper13cyn4zgugjz7pta8s7wkrxqp4cdrp7ygeem3fq",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 195972.79229577628,
-                    "balanceToken": 17288701.16316
+                    "balanceUsd": 181585.6357608582,
+                    "balanceToken": 17284701.16316
                 }
             ]
         },
@@ -933,32 +911,32 @@
                     "address": "cosmose.poolv1.near",
                     "fee": 100,
                     "users": 220,
-                    "balanceUsd": 1258.8423092897365,
-                    "balanceToken": 1084.543001451313
+                    "balanceUsd": 1290.8257257377024,
+                    "balanceToken": 1084.543717024161
                 },
                 {
                     "nodeType": "posNode",
                     "address": "kiln-1.poolv1.near",
                     "fee": 5,
-                    "users": 489,
-                    "balanceUsd": 16829179.448763315,
-                    "balanceToken": 14470794.216802476
+                    "users": 490,
+                    "balanceUsd": 17876402.453323305,
+                    "balanceToken": 14337549.008940637
                 },
                 {
                     "nodeType": "posNode",
                     "address": "kiln.poolv1.near",
                     "fee": 100,
                     "users": 139,
-                    "balanceUsd": 2495353.188202443,
-                    "balanceToken": 2149846.582405654
+                    "balanceUsd": 2683100.95842496,
+                    "balanceToken": 2151948.166741003
                 },
                 {
                     "nodeType": "posNode",
                     "address": "trust-nodes.poolv1.near",
                     "fee": 10,
                     "users": 11817,
-                    "balanceUsd": 2357712.3085951163,
-                    "balanceToken": 2031263.4591739965
+                    "balanceUsd": 2520089.971986281,
+                    "balanceToken": 2021207.207358215
                 }
             ]
         },
@@ -970,17 +948,17 @@
                     "nodeType": "posNode",
                     "address": "osmovaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7rq8p8gy",
                     "fee": 8,
-                    "users": 770,
-                    "balanceUsd": 271362.00920363213,
-                    "balanceToken": 9273468.637443
+                    "users": 772,
+                    "balanceUsd": 293080.5107066019,
+                    "balanceToken": 9514967.721406
                 },
                 {
                     "nodeType": "posNode",
                     "address": "osmovaloper1f7jtv9sd3g9jay64zrydfqh7l3eqdzgs289m8u",
                     "fee": 10,
-                    "users": 1583,
-                    "balanceUsd": 15449.296911173953,
-                    "balanceToken": 527961.046562
+                    "users": 1579,
+                    "balanceUsd": 16158.529483141336,
+                    "balanceToken": 524592.665977
                 }
             ]
         },
@@ -992,9 +970,9 @@
                     "nodeType": "posNode",
                     "address": "0xf3ad5b5d88d864559ad12e4d9b19c4f8b346c465",
                     "fee": 5,
-                    "users": 383,
-                    "balanceUsd": 11764288.749052025,
-                    "balanceToken": 129531085.9399399
+                    "users": 382,
+                    "balanceUsd": 11748345.440096695,
+                    "balanceToken": 129692630.8134186
                 }
             ]
         },
@@ -1007,7 +985,7 @@
                     "address": "seivaloper1u9xeaqdjz3kky2ymdhdsn0ra5uy9tc3eqkjc8w",
                     "fee": 5,
                     "users": -1,
-                    "balanceUsd": 305.68061294828414,
+                    "balanceUsd": 316.452447606129,
                     "balanceToken": 5894.937747
                 },
                 {
@@ -1015,8 +993,8 @@
                     "address": "seivaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjq6ee35g",
                     "fee": 5,
                     "users": -1,
-                    "balanceUsd": 4203098.784950924,
-                    "balanceToken": 81055208.057859
+                    "balanceUsd": 4351386.9101333385,
+                    "balanceToken": 81058481.747859
                 }
             ]
         },
@@ -1026,51 +1004,43 @@
             "nodes": [
                 {
                     "nodeType": "posNode",
-                    "address": "7k6puiEcBsMABVJPqF8dRPc2LG5H4ewBR9aDhRChxfwb",
-                    "fee": 1,
-                    "users": 0,
-                    "balanceUsd": 1567888.6372490127,
-                    "balanceToken": 17440.168191765
-                },
-                {
-                    "nodeType": "posNode",
                     "address": "wl_node_solana_Kiln-validator_1",
                     "fee": 0,
-                    "users": 1646,
-                    "balanceUsd": 25440226.744332176,
-                    "balanceToken": 312766.043671069
+                    "users": 1665,
+                    "balanceUsd": 23873136.58929091,
+                    "balanceToken": 291825.908337926
                 },
                 {
                     "nodeType": "posNode",
                     "address": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
                     "fee": 5,
-                    "users": 3122,
-                    "balanceUsd": 529691903.81005275,
-                    "balanceToken": 6512113.385788753
+                    "users": 3095,
+                    "balanceUsd": 428710691.48678774,
+                    "balanceToken": 5240571.823873112
                 },
                 {
                     "nodeType": "posNode",
                     "address": "wl_node_solana_Kiln-validator_3",
                     "fee": 10,
-                    "users": 46715,
-                    "balanceUsd": 57204400.35189925,
-                    "balanceToken": 703279.658567725
+                    "users": 47078,
+                    "balanceUsd": 59120341.36731603,
+                    "balanceToken": 722688.753370791
                 },
                 {
                     "nodeType": "posNode",
                     "address": "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin",
                     "fee": 7,
-                    "users": 7684,
-                    "balanceUsd": 50011298.72780896,
-                    "balanceToken": 614846.565604358
+                    "users": 7767,
+                    "balanceUsd": 49291476.96452824,
+                    "balanceToken": 602540.432200437
                 },
                 {
                     "nodeType": "posNode",
                     "address": "wl_node_solana_Kiln-validator_2",
                     "fee": 8,
                     "users": 69,
-                    "balanceUsd": 29298131.987820294,
-                    "balanceToken": 360195.721558373
+                    "balanceUsd": 29500606.18539883,
+                    "balanceToken": 360616.258545403
                 }
             ]
         },
@@ -1083,7 +1053,7 @@
                     "address": "0xfddebda85b9084d08456a2c1c947d6ad1558ab14",
                     "fee": 20,
                     "users": -1,
-                    "balanceUsd": 828029.0464890456,
+                    "balanceUsd": 913625.537832835,
                     "balanceToken": 5507853.432
                 }
             ]
@@ -1097,15 +1067,15 @@
                     "address": "0x039dc5297b92c1f6b48f4a68e180b853ff6e8188fb78422652a90b8fe14941adce",
                     "fee": 100,
                     "users": 8,
-                    "balanceUsd": 3631656.1473444505,
-                    "balanceToken": 16962935.017973997
+                    "balanceUsd": 3640648.9838805282,
+                    "balanceToken": 17092570.275342
                 },
                 {
                     "nodeType": "posNode",
                     "address": "0x0215245613e31de2ec2e7f2c4facb45724be2e49d9d42abb0a5e571322593b36bf",
                     "fee": 100,
                     "users": 1,
-                    "balanceUsd": 1434427.2474913937,
+                    "balanceUsd": 1427073.1551233293,
                     "balanceToken": 6700000.0
                 }
             ]
@@ -1118,9 +1088,9 @@
                     "nodeType": "posNode",
                     "address": "0x92c7bf9914897e8878e559c19a6cffd22e6a569a6dd4d26f8e82e0f2ad1873d6",
                     "fee": 10,
-                    "users": 869,
-                    "balanceUsd": 67825890.47227906,
-                    "balanceToken": 80230480.68487866
+                    "users": 868,
+                    "balanceUsd": 70032431.89054324,
+                    "balanceToken": 80585321.03457512
                 }
             ]
         },
@@ -1133,8 +1103,8 @@
                     "address": "5HpmskNwfgBSqsiJ8GoYazEXNP89eppotYZqfnRnE87kxaWG",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 401633.5662831854,
-                    "balanceToken": 1275.123459262
+                    "balanceUsd": 396254.20857266104,
+                    "balanceToken": 1282.935658443
                 }
             ]
         },
@@ -1146,17 +1116,17 @@
                     "nodeType": "posNode",
                     "address": "celestiavaloper1djqecw6nn5tydxq0shan7srv8j65clsfmnxcfu",
                     "fee": 10,
-                    "users": 614,
-                    "balanceUsd": 4943.966601321474,
-                    "balanceToken": 17067.601249999992
+                    "users": 613,
+                    "balanceUsd": 4894.486415581981,
+                    "balanceToken": 17086.042691999995
                 },
                 {
                     "nodeType": "posNode",
                     "address": "celestiavaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjqa02qlj",
                     "fee": 10,
                     "users": 90,
-                    "balanceUsd": 2165587.0547741367,
-                    "balanceToken": 7476057.04156
+                    "balanceUsd": 2181934.1701165684,
+                    "balanceToken": 7616860.527605
                 }
             ]
         },
@@ -1169,40 +1139,24 @@
                     "address": "EQBDeq6wDuTBDkKUlXSfUBdbxz1z4v1nNX8vBOEgz2IA-IQS",
                     "fee": 15,
                     "users": 14,
-                    "balanceUsd": 20002002.03742473,
-                    "balanceToken": 16171938.90642513
+                    "balanceUsd": 20250156.782724597,
+                    "balanceToken": 16174194.029391678
                 },
                 {
                     "nodeType": "posNode",
                     "address": "EQCGXN12Cezmurk-BdzagP7bR1bp7GT-JrGDm8juleoVGzbI",
                     "fee": 15,
                     "users": 13,
-                    "balanceUsd": 16889915.750090525,
-                    "balanceToken": 13867967.695825614
-                },
-                {
-                    "nodeType": "posNode",
-                    "address": "EQCopper1USLs1671BTkydj2IfU7Z7VFUVYGRbjsJfh9OYIg",
-                    "fee": 15,
-                    "users": 30,
-                    "balanceUsd": 11894867.976321429,
-                    "balanceToken": 9100359.159268795
-                },
-                {
-                    "nodeType": "posNode",
-                    "address": "EQCopper2jDkUHp9SxMxb1JIS8U3dFxIHUejnKpIWQGL2wkn",
-                    "fee": 15,
-                    "users": 24,
-                    "balanceUsd": 11948281.428025771,
-                    "balanceToken": 9101233.893021366
+                    "balanceUsd": 17178175.198656254,
+                    "balanceToken": 13875727.081817795
                 },
                 {
                     "nodeType": "hostingNode",
                     "address": "single_nominator_pool_v1",
                     "fee": 0,
                     "users": 1,
-                    "balanceUsd": 75625358.4478172,
-                    "balanceToken": 62073477.6405801
+                    "balanceUsd": 77804828.82150967,
+                    "balanceToken": 62183000.72488354
                 }
             ]
         },
@@ -1215,16 +1169,16 @@
                     "address": "TFqEaQBVpJmc6y6sbvXgzu9zsXL1pTKw47",
                     "fee": 10,
                     "users": -1,
-                    "balanceUsd": 44840398.10233065,
-                    "balanceToken": 139443996.0
+                    "balanceUsd": 44505907.69501416,
+                    "balanceToken": 139548378.0
                 },
                 {
                     "nodeType": "posNode",
                     "address": "TQzd66b9EFVHJfZK5AmiVhBjtJvXGeSPPZ",
                     "fee": 5,
                     "users": -1,
-                    "balanceUsd": 226003141.9274255,
-                    "balanceToken": 704188442.0
+                    "balanceUsd": 218503860.41583747,
+                    "balanceToken": 685119367.0
                 }
             ]
         },
@@ -1237,47 +1191,47 @@
                     "address": "tezos_trd_kiln_Binance",
                     "fee": 3,
                     "users": -1,
-                    "balanceUsd": 376222.0724158122,
-                    "balanceToken": 1108840.463036
+                    "balanceUsd": 381545.6120198474,
+                    "balanceToken": 1107957.818236
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_kiln_Bitpanda",
                     "fee": 3,
                     "users": -1,
-                    "balanceUsd": 491878.8858291476,
-                    "balanceToken": 1449716.142432
+                    "balanceUsd": 499519.5188145457,
+                    "balanceToken": 1450538.385967
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_kiln_CDC_Staking_CA",
                     "fee": 3,
                     "users": -1,
-                    "balanceUsd": 7835.18944520726,
-                    "balanceToken": 23092.677781
+                    "balanceUsd": 8073.051112415014,
+                    "balanceToken": 23443.068968
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_kiln_CDC_ex_ROW",
                     "fee": 3,
                     "users": -1,
-                    "balanceUsd": 69815.62053876037,
-                    "balanceToken": 205767.791635
+                    "balanceUsd": 66573.81231129423,
+                    "balanceToken": 193321.515217
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_kiln_Crypto_com",
                     "fee": 3,
                     "users": -1,
-                    "balanceUsd": 428040.3613724245,
-                    "balanceToken": 1261564.664334
+                    "balanceUsd": 435003.2327042464,
+                    "balanceToken": 1263191.653761
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_kiln_Komainu",
                     "fee": 4,
                     "users": -1,
-                    "balanceUsd": 1.8789224923345103,
+                    "balanceUsd": 1.9070272390959377,
                     "balanceToken": 5.537754
                 },
                 {
@@ -1285,48 +1239,48 @@
                     "address": "tezos_trd_kiln_Revolut",
                     "fee": 1,
                     "users": -1,
-                    "balanceUsd": 2689659.1489278004,
-                    "balanceToken": 7927240.624016
+                    "balanceUsd": 3165092.2100735097,
+                    "balanceToken": 9191007.704228
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_kiln_SBI_VC",
                     "fee": 5,
                     "users": -1,
-                    "balanceUsd": 284821.6088863182,
-                    "balanceToken": 839455.597733
+                    "balanceUsd": 291420.458125979,
+                    "balanceToken": 846246.332818
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tezos_trd_ledger_Komainu",
                     "fee": 4,
                     "users": -1,
-                    "balanceUsd": 26.416643817045486,
-                    "balanceToken": 77.857855
+                    "balanceUsd": 26.8173668128582,
+                    "balanceToken": 77.874074
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tz3LV9aGKHDnAZHCtC9SjNtTrKRu678FqSki",
                     "fee": 12,
                     "users": 99,
-                    "balanceUsd": 4302006.441810854,
-                    "balanceToken": 12679316.724536
+                    "balanceUsd": 4383984.581671988,
+                    "balanceToken": 12730509.378881
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tz3Vq38qYD3GEbWcXHMLt5PaASZrkDtEiA8D",
                     "fee": 10,
-                    "users": 26,
-                    "balanceUsd": 103188.45971371318,
-                    "balanceToken": 304127.662458
+                    "users": 25,
+                    "balanceUsd": 104767.6640677132,
+                    "balanceToken": 304231.391596
                 },
                 {
                     "nodeType": "posNode",
                     "address": "tz3dKooaL9Av4UY15AUx9uRGL5H6YyqoGSPV",
                     "fee": 15,
-                    "users": 88,
-                    "balanceUsd": 15859706.934799803,
-                    "balanceToken": 46743362.685435995
+                    "users": 89,
+                    "balanceUsd": 16551657.501512356,
+                    "balanceToken": 48063816.63383201
                 }
             ]
         }
