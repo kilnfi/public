@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-tvl:
-    runs-on: fixed-egress-4c-16g
+    runs-on: fixed-egress-8c-32g
     permissions:
       contents: write
       pull-requests: write
