@@ -1,0 +1,40 @@
+pull_request_rules:
+  - name: auto-approve automated staking rewards provider data update
+    conditions:
+      - author=github-actions[bot]
+      - head~=^automated/update-sr-provider-api-data$
+      - base=main
+      - files=provider_api/data.json
+      - "#files=1"
+      - check-success=validate-provider-api-data
+      # required explicitly here: unlike the merge action below, Mergify does
+      # NOT auto-inject branch-protection/ruleset required checks for
+      # `review`-type actions (only merge/queue)  branch protection itself
+      # only gates merging, not approving.
+      - check-success="Wiz Data Scanner"
+      - check-success="Wiz IaC Scanner"
+      - check-success="Wiz SAST Scanner"
+      - check-success="Wiz Secret Scanner"
+      - check-success="Wiz Software Management Scanner"
+      - check-success="Wiz Vulnerability Scanner"
+    actions:
+      review:
+        type: APPROVE
+        message: >-
+          Auto-approved: this PR only updates provider_api/data.json from the
+          weekly automated refresh, and passed schema validation and all
+          required Wiz scans.
+
+  - name: auto-merge automated staking rewards provider data update
+    conditions:
+      - author=github-actions[bot]
+      - head~=^automated/update-sr-provider-api-data$
+      - base=main
+      - files=provider_api/data.json
+      - "#files=1"
+      - check-success=validate-provider-api-data
+      - "#approved-reviews-by>=1"
+      - "#changes-requested-reviews-by=0"
+    actions:
+      merge:
+        method: merge

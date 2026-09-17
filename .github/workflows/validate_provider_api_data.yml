@@ -1,0 +1,90 @@
+name: validate sr provider api data
+
+# Triggered via workflow_run (not pull_request) because the PR is opened using
+# the default GITHUB_TOKEN, and GitHub does not fan out pull_request/push events
+# for activity performed with GITHUB_TOKEN. workflow_run does not have that
+# limitation, since it reacts to the completion of the upstream workflow itself.
+on:
+  workflow_run:
+    workflows: ["update sr provider api data"]
+    types: [completed]
+
+jobs:
+  validate:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+      contents: read
+      pull-requests: read
+    steps:
+      - name: find open PR for the automated branch
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NUMBER=$(gh pr list \
+            --repo "${{ github.repository }}" \
+            --head "automated/update-sr-provider-api-data" \
+            --state open \
+            --json number,headRefOid \
+            --jq '.[0]')
+
+          if [ -z "$NUMBER" ] || [ "$NUMBER" == "null" ]; then
+            echo "No open PR found, nothing to validate"
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "found=true" >> "$GITHUB_OUTPUT"
+          echo "number=$(echo "$NUMBER" | jq -r '.number')" >> "$GITHUB_OUTPUT"
+          echo "sha=$(echo "$NUMBER" | jq -r '.headRefOid')" >> "$GITHUB_OUTPUT"
+
+      - name: checkout PR head
+        if: steps.pr.outputs.found == 'true'
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ steps.pr.outputs.sha }}
+
+      - name: Download OPA
+        if: steps.pr.outputs.found == 'true'
+        uses: open-policy-agent/setup-opa@v2
+        with:
+          version: v1.20.2
+
+      - name: run schema checks
+        id: opa
+        if: steps.pr.outputs.found == 'true'
+        run: |
+          result=$(opa eval \
+            -d .github/policy/provider_api_data.rego \
+            -i provider_api/data.json \
+            'data.main.allow' \
+            -f raw)
+
+          echo "allow=$result"
+
+          if [ "$result" != "true" ]; then
+            echo "::error::Policy denied this update to provider_api/data.json - dumping rule evaluation for context:"
+            opa eval \
+              -d .github/policy/provider_api_data.rego \
+              -i provider_api/data.json \
+              'data.main' \
+              -f pretty
+            exit 1
+          fi
+
+      - name: report check run
+        if: always() && steps.pr.outputs.found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const conclusion = '${{ steps.opa.outcome }}' === 'success' ? 'success' : 'failure';
+            await github.rest.checks.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'validate-provider-api-data',
+              head_sha: '${{ steps.pr.outputs.sha }}',
+              status: 'completed',
+              conclusion,
+            });
