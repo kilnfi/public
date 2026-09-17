@@ -17,6 +17,12 @@ jobs:
       checks: write
       contents: read
       pull-requests: read
+    env:
+      REPO: ${{ github.repository }}
+      BRANCH: automated/update-sr-provider-api-data
+      FILE_PATH: provider_api/data.json
+      POLICY_PATH: .github/policy/provider_api_data.rego
+      CHECK_NAME: validate-provider-api-data
     steps:
       - name: find open PR for the automated branch
         id: pr
@@ -24,8 +30,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NUMBER=$(gh pr list \
-            --repo "${{ github.repository }}" \
-            --head "automated/update-sr-provider-api-data" \
+            --repo "$REPO" \
+            --head "$BRANCH" \
             --state open \
             --json number,headRefOid \
             --jq '.[0]')
@@ -57,18 +63,18 @@ jobs:
         if: steps.pr.outputs.found == 'true'
         run: |
           result=$(opa eval \
-            -d .github/policy/provider_api_data.rego \
-            -i provider_api/data.json \
+            -d "$POLICY_PATH" \
+            -i "$FILE_PATH" \
             'data.main.allow' \
             -f raw)
 
           echo "allow=$result"
 
           if [ "$result" != "true" ]; then
-            echo "::error::Policy denied this update to provider_api/data.json - dumping rule evaluation for context:"
+            echo "::error::Policy denied this update to $FILE_PATH - dumping rule evaluation for context:"
             opa eval \
-              -d .github/policy/provider_api_data.rego \
-              -i provider_api/data.json \
+              -d "$POLICY_PATH" \
+              -i "$FILE_PATH" \
               'data.main' \
               -f pretty
             exit 1
@@ -77,14 +83,17 @@ jobs:
       - name: report check run
         if: always() && steps.pr.outputs.found == 'true'
         uses: actions/github-script@v7
+        env:
+          OPA_OUTCOME: ${{ steps.opa.outcome }}
+          HEAD_SHA: ${{ steps.pr.outputs.sha }}
         with:
           script: |
-            const conclusion = '${{ steps.opa.outcome }}' === 'success' ? 'success' : 'failure';
+            const conclusion = process.env.OPA_OUTCOME === 'success' ? 'success' : 'failure';
             await github.rest.checks.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              name: 'validate-provider-api-data',
-              head_sha: '${{ steps.pr.outputs.sha }}',
+              name: process.env.CHECK_NAME,
+              head_sha: process.env.HEAD_SHA,
               status: 'completed',
               conclusion,
             });
