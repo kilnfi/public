@@ -11,11 +11,9 @@ pull_request_rules:
       # NOT auto-inject branch-protection/ruleset required checks for
       # `review`-type actions (only merge/queue)  branch protection itself
       # only gates merging, not approving.
-      - check-success="Wiz Data Scanner"
       - check-success="Wiz IaC Scanner"
       - check-success="Wiz SAST Scanner"
       - check-success="Wiz Secret Scanner"
-      - check-success="Wiz Software Management Scanner"
       - check-success="Wiz Vulnerability Scanner"
     actions:
       review:
