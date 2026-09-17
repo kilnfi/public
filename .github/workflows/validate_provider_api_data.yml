@@ -57,7 +57,7 @@ jobs:
         if: steps.pr.outputs.found == 'true'
         run: |
           result=$(opa eval \
-            -d policy/provider_api_data.rego \
+            -d .github/policy/provider_api_data.rego \
             -i provider_api/data.json \
             'data.main.allow' \
             -f raw)
@@ -67,7 +67,7 @@ jobs:
           if [ "$result" != "true" ]; then
             echo "::error::Policy denied this update to provider_api/data.json - dumping rule evaluation for context:"
             opa eval \
-              -d policy/provider_api_data.rego \
+              -d .github/policy/provider_api_data.rego \
               -i provider_api/data.json \
               'data.main' \
               -f pretty
