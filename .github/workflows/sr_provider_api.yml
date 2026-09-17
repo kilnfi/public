@@ -11,6 +11,8 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+    env:
+      FILE_PATH: provider_api/data.json
 
     steps:
       - name: checkout repository
@@ -26,29 +28,46 @@ jobs:
           repositories: finance-scripts
 
       - name: Fetch data from finance repository
+        env:
+          FINANCE_TOKEN: ${{ steps.finance-app-token.outputs.token }}
         run: |
-          curl -H "Authorization: token ${{ steps.finance-app-token.outputs.token }}" \
+          curl -H "Authorization: token $FINANCE_TOKEN" \
                -H "Accept: application/vnd.github.v3.raw" \
                -L https://api.github.com/repos/kilnfi/finance-scripts/contents/src/staking_rewards/data.json \
-               -o provider_api/data.json
+               -o "$FILE_PATH"
 
       - name: commit and open pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          BRANCH: automated/update-sr-provider-api-data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if git diff --quiet -- provider_api/data.json; then
+          if git diff --quiet -- "$FILE_PATH"; then
             echo "No changes to commit"
             exit 0
           fi
 
-          BRANCH="automated/update-sr-provider-api-data"
-          git checkout -B "$BRANCH"
-          git add provider_api/data.json
-          git commit -m "automated: update sr provider api data"
-          git push -f origin "$BRANCH"
+          # Reset (or create) the automated branch to point at main's current
+          # tip, so it always carries a single fresh commit.
+          BASE_SHA=$(gh api "repos/$REPO/git/ref/heads/main" --jq .object.sha)
+          if gh api "repos/$REPO/git/ref/heads/$BRANCH" >/dev/null 2>&1; then
+            gh api --method PATCH "repos/$REPO/git/refs/heads/$BRANCH" \
+              -f sha="$BASE_SHA" -F force=true >/dev/null
+          else
+            gh api --method POST "repos/$REPO/git/refs" \
+              -f ref="refs/heads/$BRANCH" -f sha="$BASE_SHA" >/dev/null
+          fi
+
+          # Commit the new file content via the Contents API,
+          # GitHub only auto-verifies commits it creates itself through its API.
+          EXISTING_SHA=$(gh api "repos/$REPO/contents/$FILE_PATH?ref=$BRANCH" --jq .sha)
+          CONTENT_B64=$(base64 "$FILE_PATH" | tr -d '\n')
+
+          gh api --method PUT "repos/$REPO/contents/$FILE_PATH" \
+            -f message="automated: update sr provider api data" \
+            -f content="$CONTENT_B64" \
+            -f branch="$BRANCH" \
+            -f sha="$EXISTING_SHA" >/dev/null
 
           gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' | grep -q . || \
           gh pr create \
